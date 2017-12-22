@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */; };
+		02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A891FEDBAEF004BBBDD /* main.m */; };
+		02D83A941FEDBAEF004BBBDD /* LuckyForeverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A931FEDBAEF004BBBDD /* LuckyForeverTests.m */; };
+		02D83A9F1FEDBAEF004BBBDD /* LuckyForeverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A9E1FEDBAEF004BBBDD /* LuckyForeverUITests.m */; };
+		02D83AEB1FEDBB91004BBBDD /* DiscoverContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AB61FEDBB90004BBBDD /* DiscoverContentCell.m */; };
+		02D83AEC1FEDBB91004BBBDD /* DiscoverData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AB81FEDBB90004BBBDD /* DiscoverData.m */; };
+		02D83AED1FEDBB91004BBBDD /* DiscoverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ABB1FEDBB90004BBBDD /* DiscoverDetailViewController.m */; };
+		02D83AEE1FEDBB91004BBBDD /* DiscoverFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ABD1FEDBB90004BBBDD /* DiscoverFooterCell.m */; };
+		02D83AEF1FEDBB91004BBBDD /* DiscoverSubtitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ABF1FEDBB90004BBBDD /* DiscoverSubtitleCell.m */; };
+		02D83AF01FEDBB91004BBBDD /* DiscoverTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AC11FEDBB90004BBBDD /* DiscoverTitleCell.m */; };
+		02D83AF11FEDBB91004BBBDD /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AC31FEDBB90004BBBDD /* DiscoverViewController.m */; };
+		02D83AF21FEDBB91004BBBDD /* HomeTabTopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AC61FEDBB90004BBBDD /* HomeTabTopCollectionViewCell.m */; };
+		02D83AF31FEDBB91004BBBDD /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AC81FEDBB90004BBBDD /* HomeTabViewController.m */; };
+		02D83AF41FEDBB91004BBBDD /* LotteryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ACA1FEDBB90004BBBDD /* LotteryData.m */; };
+		02D83AF51FEDBB91004BBBDD /* LotteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ACD1FEDBB90004BBBDD /* LotteryDetailViewController.m */; };
+		02D83AF61FEDBB91004BBBDD /* EventData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD01FEDBB91004BBBDD /* EventData.m */; };
+		02D83AF71FEDBB91004BBBDD /* EventContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD31FEDBB91004BBBDD /* EventContentTableViewCell.m */; };
+		02D83AF81FEDBB91004BBBDD /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD51FEDBB91004BBBDD /* EventDetailViewController.m */; };
+		02D83AF91FEDBB91004BBBDD /* EventFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD71FEDBB91004BBBDD /* EventFooterTableViewCell.m */; };
+		02D83AFA1FEDBB91004BBBDD /* EventSeperaterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD91FEDBB91004BBBDD /* EventSeperaterTableViewCell.m */; };
+		02D83AFB1FEDBB91004BBBDD /* EventTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ADB1FEDBB91004BBBDD /* EventTitleTableViewCell.m */; };
+		02D83AFC1FEDBB91004BBBDD /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ADD1FEDBB91004BBBDD /* EventTableViewCell.m */; };
+		02D83AFD1FEDBB91004BBBDD /* EventTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ADF1FEDBB91004BBBDD /* EventTabViewController.m */; };
+		02D83AFE1FEDBB91004BBBDD /* CYCalendarHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AE31FEDBB91004BBBDD /* CYCalendarHandler.m */; };
+		02D83AFF1FEDBB91004BBBDD /* CYNotificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AE61FEDBB91004BBBDD /* CYNotificationHandler.m */; };
+		02D83B091FEDBE86004BBBDD /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D83B081FEDBE86004BBBDD /* UserNotifications.framework */; };
+		02D83B0B1FEDBF24004BBBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D83B0A1FEDBF24004BBBDD /* Assets.xcassets */; };
+		02D83B0F1FEDBF60004BBBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D83B0E1FEDBF60004BBBDD /* Main.storyboard */; };
+		02D83B111FEDBF83004BBBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D83B101FEDBF83004BBBDD /* LaunchScreen.storyboard */; };
+		02D83B141FEDBF97004BBBDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83B131FEDBF96004BBBDD /* AppDelegate.m */; };
+		031F6B08651FD2CC12439E9B /* libPods-LuckyForeverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25333048EF87B5C37D0E9AE9 /* libPods-LuckyForeverTests.a */; };
+		065A548B2F00A886DACA400D /* libPods-LuckyForeverUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423D53EAC3D314D84BBD3917 /* libPods-LuckyForeverUITests.a */; };
+		4A800D324679DA2E34AC9B5C /* libPods-LuckyForever.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5834C1562283E39B3B73857 /* libPods-LuckyForever.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D83A901FEDBAEF004BBBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D83A6C1FEDBAEF004BBBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D83A731FEDBAEF004BBBDD;
+			remoteInfo = LuckyForever;
+		};
+		02D83A9B1FEDBAEF004BBBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D83A6C1FEDBAEF004BBBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D83A731FEDBAEF004BBBDD;
+			remoteInfo = LuckyForever;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D83A741FEDBAEF004BBBDD /* LuckyForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D83A811FEDBAEF004BBBDD /* LuckyForever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuckyForever.xcdatamodel; sourceTree = "<group>"; };
+		02D83A881FEDBAEF004BBBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D83A891FEDBAEF004BBBDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02D83A8F1FEDBAEF004BBBDD /* LuckyForeverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyForeverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D83A931FEDBAEF004BBBDD /* LuckyForeverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyForeverTests.m; sourceTree = "<group>"; };
+		02D83A951FEDBAEF004BBBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D83A9A1FEDBAEF004BBBDD /* LuckyForeverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyForeverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D83A9E1FEDBAEF004BBBDD /* LuckyForeverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyForeverUITests.m; sourceTree = "<group>"; };
+		02D83AA01FEDBAEF004BBBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D83AB51FEDBB90004BBBDD /* DiscoverContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverContentCell.h; sourceTree = "<group>"; };
+		02D83AB61FEDBB90004BBBDD /* DiscoverContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverContentCell.m; sourceTree = "<group>"; };
+		02D83AB71FEDBB90004BBBDD /* DiscoverData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverData.h; sourceTree = "<group>"; };
+		02D83AB81FEDBB90004BBBDD /* DiscoverData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverData.m; sourceTree = "<group>"; };
+		02D83ABA1FEDBB90004BBBDD /* DiscoverDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverDetailViewController.h; sourceTree = "<group>"; };
+		02D83ABB1FEDBB90004BBBDD /* DiscoverDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverDetailViewController.m; sourceTree = "<group>"; };
+		02D83ABC1FEDBB90004BBBDD /* DiscoverFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverFooterCell.h; sourceTree = "<group>"; };
+		02D83ABD1FEDBB90004BBBDD /* DiscoverFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverFooterCell.m; sourceTree = "<group>"; };
+		02D83ABE1FEDBB90004BBBDD /* DiscoverSubtitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverSubtitleCell.h; sourceTree = "<group>"; };
+		02D83ABF1FEDBB90004BBBDD /* DiscoverSubtitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverSubtitleCell.m; sourceTree = "<group>"; };
+		02D83AC01FEDBB90004BBBDD /* DiscoverTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverTitleCell.h; sourceTree = "<group>"; };
+		02D83AC11FEDBB90004BBBDD /* DiscoverTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTitleCell.m; sourceTree = "<group>"; };
+		02D83AC21FEDBB90004BBBDD /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		02D83AC31FEDBB90004BBBDD /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		02D83AC51FEDBB90004BBBDD /* HomeTabTopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabTopCollectionViewCell.h; sourceTree = "<group>"; };
+		02D83AC61FEDBB90004BBBDD /* HomeTabTopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabTopCollectionViewCell.m; sourceTree = "<group>"; };
+		02D83AC71FEDBB90004BBBDD /* HomeTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabViewController.h; sourceTree = "<group>"; };
+		02D83AC81FEDBB90004BBBDD /* HomeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
+		02D83AC91FEDBB90004BBBDD /* LotteryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryData.h; sourceTree = "<group>"; };
+		02D83ACA1FEDBB90004BBBDD /* LotteryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryData.m; sourceTree = "<group>"; };
+		02D83ACC1FEDBB90004BBBDD /* LotteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryDetailViewController.h; sourceTree = "<group>"; };
+		02D83ACD1FEDBB90004BBBDD /* LotteryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryDetailViewController.m; sourceTree = "<group>"; };
+		02D83ACF1FEDBB91004BBBDD /* EventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventData.h; sourceTree = "<group>"; };
+		02D83AD01FEDBB91004BBBDD /* EventData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventData.m; sourceTree = "<group>"; };
+		02D83AD21FEDBB91004BBBDD /* EventContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventContentTableViewCell.h; sourceTree = "<group>"; };
+		02D83AD31FEDBB91004BBBDD /* EventContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventContentTableViewCell.m; sourceTree = "<group>"; };
+		02D83AD41FEDBB91004BBBDD /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		02D83AD51FEDBB91004BBBDD /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		02D83AD61FEDBB91004BBBDD /* EventFooterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFooterTableViewCell.h; sourceTree = "<group>"; };
+		02D83AD71FEDBB91004BBBDD /* EventFooterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventFooterTableViewCell.m; sourceTree = "<group>"; };
+		02D83AD81FEDBB91004BBBDD /* EventSeperaterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSeperaterTableViewCell.h; sourceTree = "<group>"; };
+		02D83AD91FEDBB91004BBBDD /* EventSeperaterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSeperaterTableViewCell.m; sourceTree = "<group>"; };
+		02D83ADA1FEDBB91004BBBDD /* EventTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTitleTableViewCell.h; sourceTree = "<group>"; };
+		02D83ADB1FEDBB91004BBBDD /* EventTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTitleTableViewCell.m; sourceTree = "<group>"; };
+		02D83ADC1FEDBB91004BBBDD /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		02D83ADD1FEDBB91004BBBDD /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		02D83ADE1FEDBB91004BBBDD /* EventTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTabViewController.h; sourceTree = "<group>"; };
+		02D83ADF1FEDBB91004BBBDD /* EventTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTabViewController.m; sourceTree = "<group>"; };
+		02D83AE21FEDBB91004BBBDD /* CYCalendarHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCalendarHandler.h; sourceTree = "<group>"; };
+		02D83AE31FEDBB91004BBBDD /* CYCalendarHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCalendarHandler.m; sourceTree = "<group>"; };
+		02D83AE51FEDBB91004BBBDD /* CYNotificationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNotificationHandler.h; sourceTree = "<group>"; };
+		02D83AE61FEDBB91004BBBDD /* CYNotificationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYNotificationHandler.m; sourceTree = "<group>"; };
+		02D83B081FEDBE86004BBBDD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		02D83B0A1FEDBF24004BBBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02D83B0E1FEDBF60004BBBDD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		02D83B101FEDBF83004BBBDD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02D83B121FEDBF96004BBBDD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02D83B131FEDBF96004BBBDD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02D83B151FEDC33F004BBBDD /* LuckyForever.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LuckyForever.entitlements; sourceTree = "<group>"; };
+		144B67A46819CBA70CE53162 /* Pods-LuckyForeverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyForeverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25333048EF87B5C37D0E9AE9 /* libPods-LuckyForeverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuckyForeverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4095F931DABA5236BA2671D0 /* Pods-LuckyForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyForever.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig"; sourceTree = "<group>"; };
+		423D53EAC3D314D84BBD3917 /* libPods-LuckyForeverUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuckyForeverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646F43E286A741186F5DA4A7 /* Pods-LuckyForeverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyForeverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75EEB029A65502497C2F214D /* Pods-LuckyForeverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyForeverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AED598CC620FF9FCEB6999FB /* Pods-LuckyForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyForever.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig"; sourceTree = "<group>"; };
+		B6969DE3FBF76ED3E016B940 /* Pods-LuckyForeverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyForeverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5834C1562283E39B3B73857 /* libPods-LuckyForever.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuckyForever.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D83A711FEDBAEF004BBBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D83B091FEDBE86004BBBDD /* UserNotifications.framework in Frameworks */,
+				4A800D324679DA2E34AC9B5C /* libPods-LuckyForever.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D83A8C1FEDBAEF004BBBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031F6B08651FD2CC12439E9B /* libPods-LuckyForeverTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D83A971FEDBAEF004BBBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A548B2F00A886DACA400D /* libPods-LuckyForeverUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D83A6B1FEDBAEF004BBBDD = {
+			isa = PBXGroup;
+			children = (
+				02D83A761FEDBAEF004BBBDD /* LuckyForever */,
+				02D83A921FEDBAEF004BBBDD /* LuckyForeverTests */,
+				02D83A9D1FEDBAEF004BBBDD /* LuckyForeverUITests */,
+				02D83A751FEDBAEF004BBBDD /* Products */,
+				F90DE5440004F9C9A95FE836 /* Pods */,
+				4CB34469A712E24461AF56EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02D83A751FEDBAEF004BBBDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D83A741FEDBAEF004BBBDD /* LuckyForever.app */,
+				02D83A8F1FEDBAEF004BBBDD /* LuckyForeverTests.xctest */,
+				02D83A9A1FEDBAEF004BBBDD /* LuckyForeverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02D83A761FEDBAEF004BBBDD /* LuckyForever */ = {
+			isa = PBXGroup;
+			children = (
+				02D83B151FEDC33F004BBBDD /* LuckyForever.entitlements */,
+				02D83AB41FEDBB90004BBBDD /* DiscoverTab */,
+				02D83ACE1FEDBB91004BBBDD /* EventTab */,
+				02D83AC41FEDBB90004BBBDD /* HomeTab */,
+				02D83AE01FEDBB91004BBBDD /* Modules */,
+				02D83B0A1FEDBF24004BBBDD /* Assets.xcassets */,
+				02D83B121FEDBF96004BBBDD /* AppDelegate.h */,
+				02D83B131FEDBF96004BBBDD /* AppDelegate.m */,
+				02D83B0E1FEDBF60004BBBDD /* Main.storyboard */,
+				02D83B101FEDBF83004BBBDD /* LaunchScreen.storyboard */,
+				02D83A881FEDBAEF004BBBDD /* Info.plist */,
+				02D83A891FEDBAEF004BBBDD /* main.m */,
+				02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */,
+			);
+			path = LuckyForever;
+			sourceTree = "<group>";
+		};
+		02D83A921FEDBAEF004BBBDD /* LuckyForeverTests */ = {
+			isa = PBXGroup;
+			children = (
+				02D83A931FEDBAEF004BBBDD /* LuckyForeverTests.m */,
+				02D83A951FEDBAEF004BBBDD /* Info.plist */,
+			);
+			path = LuckyForeverTests;
+			sourceTree = "<group>";
+		};
+		02D83A9D1FEDBAEF004BBBDD /* LuckyForeverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02D83A9E1FEDBAEF004BBBDD /* LuckyForeverUITests.m */,
+				02D83AA01FEDBAEF004BBBDD /* Info.plist */,
+			);
+			path = LuckyForeverUITests;
+			sourceTree = "<group>";
+		};
+		02D83AB41FEDBB90004BBBDD /* DiscoverTab */ = {
+			isa = PBXGroup;
+			children = (
+				02D83AB51FEDBB90004BBBDD /* DiscoverContentCell.h */,
+				02D83AB61FEDBB90004BBBDD /* DiscoverContentCell.m */,
+				02D83AB71FEDBB90004BBBDD /* DiscoverData.h */,
+				02D83AB81FEDBB90004BBBDD /* DiscoverData.m */,
+				02D83AB91FEDBB90004BBBDD /* DiscoverDetail */,
+				02D83ABC1FEDBB90004BBBDD /* DiscoverFooterCell.h */,
+				02D83ABD1FEDBB90004BBBDD /* DiscoverFooterCell.m */,
+				02D83ABE1FEDBB90004BBBDD /* DiscoverSubtitleCell.h */,
+				02D83ABF1FEDBB90004BBBDD /* DiscoverSubtitleCell.m */,
+				02D83AC01FEDBB90004BBBDD /* DiscoverTitleCell.h */,
+				02D83AC11FEDBB90004BBBDD /* DiscoverTitleCell.m */,
+				02D83AC21FEDBB90004BBBDD /* DiscoverViewController.h */,
+				02D83AC31FEDBB90004BBBDD /* DiscoverViewController.m */,
+			);
+			path = DiscoverTab;
+			sourceTree = "<group>";
+		};
+		02D83AB91FEDBB90004BBBDD /* DiscoverDetail */ = {
+			isa = PBXGroup;
+			children = (
+				02D83ABA1FEDBB90004BBBDD /* DiscoverDetailViewController.h */,
+				02D83ABB1FEDBB90004BBBDD /* DiscoverDetailViewController.m */,
+			);
+			path = DiscoverDetail;
+			sourceTree = "<group>";
+		};
+		02D83AC41FEDBB90004BBBDD /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				02D83AC51FEDBB90004BBBDD /* HomeTabTopCollectionViewCell.h */,
+				02D83AC61FEDBB90004BBBDD /* HomeTabTopCollectionViewCell.m */,
+				02D83AC71FEDBB90004BBBDD /* HomeTabViewController.h */,
+				02D83AC81FEDBB90004BBBDD /* HomeTabViewController.m */,
+				02D83AC91FEDBB90004BBBDD /* LotteryData.h */,
+				02D83ACA1FEDBB90004BBBDD /* LotteryData.m */,
+				02D83ACB1FEDBB90004BBBDD /* LotteryDetail */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		02D83ACB1FEDBB90004BBBDD /* LotteryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				02D83ACC1FEDBB90004BBBDD /* LotteryDetailViewController.h */,
+				02D83ACD1FEDBB90004BBBDD /* LotteryDetailViewController.m */,
+			);
+			path = LotteryDetail;
+			sourceTree = "<group>";
+		};
+		02D83ACE1FEDBB91004BBBDD /* EventTab */ = {
+			isa = PBXGroup;
+			children = (
+				02D83ACF1FEDBB91004BBBDD /* EventData.h */,
+				02D83AD01FEDBB91004BBBDD /* EventData.m */,
+				02D83AD11FEDBB91004BBBDD /* EventDetail */,
+				02D83ADC1FEDBB91004BBBDD /* EventTableViewCell.h */,
+				02D83ADD1FEDBB91004BBBDD /* EventTableViewCell.m */,
+				02D83ADE1FEDBB91004BBBDD /* EventTabViewController.h */,
+				02D83ADF1FEDBB91004BBBDD /* EventTabViewController.m */,
+			);
+			path = EventTab;
+			sourceTree = "<group>";
+		};
+		02D83AD11FEDBB91004BBBDD /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				02D83AD21FEDBB91004BBBDD /* EventContentTableViewCell.h */,
+				02D83AD31FEDBB91004BBBDD /* EventContentTableViewCell.m */,
+				02D83AD41FEDBB91004BBBDD /* EventDetailViewController.h */,
+				02D83AD51FEDBB91004BBBDD /* EventDetailViewController.m */,
+				02D83AD61FEDBB91004BBBDD /* EventFooterTableViewCell.h */,
+				02D83AD71FEDBB91004BBBDD /* EventFooterTableViewCell.m */,
+				02D83AD81FEDBB91004BBBDD /* EventSeperaterTableViewCell.h */,
+				02D83AD91FEDBB91004BBBDD /* EventSeperaterTableViewCell.m */,
+				02D83ADA1FEDBB91004BBBDD /* EventTitleTableViewCell.h */,
+				02D83ADB1FEDBB91004BBBDD /* EventTitleTableViewCell.m */,
+			);
+			path = EventDetail;
+			sourceTree = "<group>";
+		};
+		02D83AE01FEDBB91004BBBDD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				02D83AE11FEDBB91004BBBDD /* CalendarHandler */,
+				02D83AE41FEDBB91004BBBDD /* NotificationCenter */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		02D83AE11FEDBB91004BBBDD /* CalendarHandler */ = {
+			isa = PBXGroup;
+			children = (
+				02D83AE21FEDBB91004BBBDD /* CYCalendarHandler.h */,
+				02D83AE31FEDBB91004BBBDD /* CYCalendarHandler.m */,
+			);
+			path = CalendarHandler;
+			sourceTree = "<group>";
+		};
+		02D83AE41FEDBB91004BBBDD /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				02D83AE51FEDBB91004BBBDD /* CYNotificationHandler.h */,
+				02D83AE61FEDBB91004BBBDD /* CYNotificationHandler.m */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		4CB34469A712E24461AF56EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02D83B081FEDBE86004BBBDD /* UserNotifications.framework */,
+				C5834C1562283E39B3B73857 /* libPods-LuckyForever.a */,
+				25333048EF87B5C37D0E9AE9 /* libPods-LuckyForeverTests.a */,
+				423D53EAC3D314D84BBD3917 /* libPods-LuckyForeverUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F90DE5440004F9C9A95FE836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4095F931DABA5236BA2671D0 /* Pods-LuckyForever.debug.xcconfig */,
+				AED598CC620FF9FCEB6999FB /* Pods-LuckyForever.release.xcconfig */,
+				144B67A46819CBA70CE53162 /* Pods-LuckyForeverTests.debug.xcconfig */,
+				B6969DE3FBF76ED3E016B940 /* Pods-LuckyForeverTests.release.xcconfig */,
+				646F43E286A741186F5DA4A7 /* Pods-LuckyForeverUITests.debug.xcconfig */,
+				75EEB029A65502497C2F214D /* Pods-LuckyForeverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D83A731FEDBAEF004BBBDD /* LuckyForever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D83AA31FEDBAEF004BBBDD /* Build configuration list for PBXNativeTarget "LuckyForever" */;
+			buildPhases = (
+				749997B89CC5D647FFBC6B99 /* [CP] Check Pods Manifest.lock */,
+				02D83A701FEDBAEF004BBBDD /* Sources */,
+				02D83A711FEDBAEF004BBBDD /* Frameworks */,
+				02D83A721FEDBAEF004BBBDD /* Resources */,
+				CDBD62DD924C6262EF4B448C /* [CP] Embed Pods Frameworks */,
+				980ABD05FF517B1AA927FCE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyForever;
+			productName = LuckyForever;
+			productReference = 02D83A741FEDBAEF004BBBDD /* LuckyForever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02D83A8E1FEDBAEF004BBBDD /* LuckyForeverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D83AA61FEDBAEF004BBBDD /* Build configuration list for PBXNativeTarget "LuckyForeverTests" */;
+			buildPhases = (
+				3641168AA02ABF778A42F279 /* [CP] Check Pods Manifest.lock */,
+				02D83A8B1FEDBAEF004BBBDD /* Sources */,
+				02D83A8C1FEDBAEF004BBBDD /* Frameworks */,
+				02D83A8D1FEDBAEF004BBBDD /* Resources */,
+				EF9D6FF3777D9E8BF06289C4 /* [CP] Embed Pods Frameworks */,
+				13A799C43D9A8196ABB1E9C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D83A911FEDBAEF004BBBDD /* PBXTargetDependency */,
+			);
+			name = LuckyForeverTests;
+			productName = LuckyForeverTests;
+			productReference = 02D83A8F1FEDBAEF004BBBDD /* LuckyForeverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02D83A991FEDBAEF004BBBDD /* LuckyForeverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D83AA91FEDBAEF004BBBDD /* Build configuration list for PBXNativeTarget "LuckyForeverUITests" */;
+			buildPhases = (
+				9AF1CBE934D85A19F97425F8 /* [CP] Check Pods Manifest.lock */,
+				02D83A961FEDBAEF004BBBDD /* Sources */,
+				02D83A971FEDBAEF004BBBDD /* Frameworks */,
+				02D83A981FEDBAEF004BBBDD /* Resources */,
+				E46A895CCCEFD7A950CBE291 /* [CP] Embed Pods Frameworks */,
+				59C0F876022B342A418C44A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D83A9C1FEDBAEF004BBBDD /* PBXTargetDependency */,
+			);
+			name = LuckyForeverUITests;
+			productName = LuckyForeverUITests;
+			productReference = 02D83A9A1FEDBAEF004BBBDD /* LuckyForeverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D83A6C1FEDBAEF004BBBDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "OD INTERNATIONAL 3";
+				TargetAttributes = {
+					02D83A731FEDBAEF004BBBDD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					02D83A8E1FEDBAEF004BBBDD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02D83A731FEDBAEF004BBBDD;
+					};
+					02D83A991FEDBAEF004BBBDD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02D83A731FEDBAEF004BBBDD;
+					};
+				};
+			};
+			buildConfigurationList = 02D83A6F1FEDBAEF004BBBDD /* Build configuration list for PBXProject "LuckyForever" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02D83A6B1FEDBAEF004BBBDD;
+			productRefGroup = 02D83A751FEDBAEF004BBBDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D83A731FEDBAEF004BBBDD /* LuckyForever */,
+				02D83A8E1FEDBAEF004BBBDD /* LuckyForeverTests */,
+				02D83A991FEDBAEF004BBBDD /* LuckyForeverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D83A721FEDBAEF004BBBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D83B111FEDBF83004BBBDD /* LaunchScreen.storyboard in Resources */,
+				02D83B0F1FEDBF60004BBBDD /* Main.storyboard in Resources */,
+				02D83B0B1FEDBF24004BBBDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D83A8D1FEDBAEF004BBBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D83A981FEDBAEF004BBBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A799C43D9A8196ABB1E9C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3641168AA02ABF778A42F279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyForeverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C0F876022B342A418C44A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749997B89CC5D647FFBC6B99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyForever-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		980ABD05FF517B1AA927FCE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF1CBE934D85A19F97425F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyForeverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBD62DD924C6262EF4B448C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46A895CCCEFD7A950CBE291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9D6FF3777D9E8BF06289C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D83A701FEDBAEF004BBBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D83AF21FEDBB91004BBBDD /* HomeTabTopCollectionViewCell.m in Sources */,
+				02D83AFE1FEDBB91004BBBDD /* CYCalendarHandler.m in Sources */,
+				02D83AF41FEDBB91004BBBDD /* LotteryData.m in Sources */,
+				02D83AEC1FEDBB91004BBBDD /* DiscoverData.m in Sources */,
+				02D83AEE1FEDBB91004BBBDD /* DiscoverFooterCell.m in Sources */,
+				02D83AFD1FEDBB91004BBBDD /* EventTabViewController.m in Sources */,
+				02D83AF91FEDBB91004BBBDD /* EventFooterTableViewCell.m in Sources */,
+				02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */,
+				02D83AFB1FEDBB91004BBBDD /* EventTitleTableViewCell.m in Sources */,
+				02D83AF71FEDBB91004BBBDD /* EventContentTableViewCell.m in Sources */,
+				02D83AF31FEDBB91004BBBDD /* HomeTabViewController.m in Sources */,
+				02D83AEF1FEDBB91004BBBDD /* DiscoverSubtitleCell.m in Sources */,
+				02D83AFA1FEDBB91004BBBDD /* EventSeperaterTableViewCell.m in Sources */,
+				02D83AF11FEDBB91004BBBDD /* DiscoverViewController.m in Sources */,
+				02D83AEB1FEDBB91004BBBDD /* DiscoverContentCell.m in Sources */,
+				02D83AF01FEDBB91004BBBDD /* DiscoverTitleCell.m in Sources */,
+				02D83AF51FEDBB91004BBBDD /* LotteryDetailViewController.m in Sources */,
+				02D83AED1FEDBB91004BBBDD /* DiscoverDetailViewController.m in Sources */,
+				02D83AFF1FEDBB91004BBBDD /* CYNotificationHandler.m in Sources */,
+				02D83AF61FEDBB91004BBBDD /* EventData.m in Sources */,
+				02D83B141FEDBF97004BBBDD /* AppDelegate.m in Sources */,
+				02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */,
+				02D83AF81FEDBB91004BBBDD /* EventDetailViewController.m in Sources */,
+				02D83AFC1FEDBB91004BBBDD /* EventTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D83A8B1FEDBAEF004BBBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D83A941FEDBAEF004BBBDD /* LuckyForeverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D83A961FEDBAEF004BBBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D83A9F1FEDBAEF004BBBDD /* LuckyForeverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D83A911FEDBAEF004BBBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D83A731FEDBAEF004BBBDD /* LuckyForever */;
+			targetProxy = 02D83A901FEDBAEF004BBBDD /* PBXContainerItemProxy */;
+		};
+		02D83A9C1FEDBAEF004BBBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D83A731FEDBAEF004BBBDD /* LuckyForever */;
+			targetProxy = 02D83A9B1FEDBAEF004BBBDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D83AA11FEDBAEF004BBBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02D83AA21FEDBAEF004BBBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02D83AA41FEDBAEF004BBBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4095F931DABA5236BA2671D0 /* Pods-LuckyForever.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LuckyForever/LuckyForever.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4B7VYAHND;
+				INFOPLIST_FILE = LuckyForever/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunshire.LuckyForever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D83AA51FEDBAEF004BBBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED598CC620FF9FCEB6999FB /* Pods-LuckyForever.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LuckyForever/LuckyForever.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4B7VYAHND;
+				INFOPLIST_FILE = LuckyForever/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunshire.LuckyForever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02D83AA71FEDBAEF004BBBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144B67A46819CBA70CE53162 /* Pods-LuckyForeverTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2BT68B55;
+				INFOPLIST_FILE = LuckyForeverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odinternational.LuckyForeverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyForever.app/LuckyForever";
+			};
+			name = Debug;
+		};
+		02D83AA81FEDBAEF004BBBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6969DE3FBF76ED3E016B940 /* Pods-LuckyForeverTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2BT68B55;
+				INFOPLIST_FILE = LuckyForeverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odinternational.LuckyForeverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyForever.app/LuckyForever";
+			};
+			name = Release;
+		};
+		02D83AAA1FEDBAEF004BBBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646F43E286A741186F5DA4A7 /* Pods-LuckyForeverUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2BT68B55;
+				INFOPLIST_FILE = LuckyForeverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odinternational.LuckyForeverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyForever;
+			};
+			name = Debug;
+		};
+		02D83AAB1FEDBAEF004BBBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EEB029A65502497C2F214D /* Pods-LuckyForeverUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z2BT68B55;
+				INFOPLIST_FILE = LuckyForeverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odinternational.LuckyForeverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyForever;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D83A6F1FEDBAEF004BBBDD /* Build configuration list for PBXProject "LuckyForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D83AA11FEDBAEF004BBBDD /* Debug */,
+				02D83AA21FEDBAEF004BBBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D83AA31FEDBAEF004BBBDD /* Build configuration list for PBXNativeTarget "LuckyForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D83AA41FEDBAEF004BBBDD /* Debug */,
+				02D83AA51FEDBAEF004BBBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D83AA61FEDBAEF004BBBDD /* Build configuration list for PBXNativeTarget "LuckyForeverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D83AA71FEDBAEF004BBBDD /* Debug */,
+				02D83AA81FEDBAEF004BBBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D83AA91FEDBAEF004BBBDD /* Build configuration list for PBXNativeTarget "LuckyForeverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D83AAA1FEDBAEF004BBBDD /* Debug */,
+				02D83AAB1FEDBAEF004BBBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02D83A811FEDBAEF004BBBDD /* LuckyForever.xcdatamodel */,
+			);
+			currentVersion = 02D83A811FEDBAEF004BBBDD /* LuckyForever.xcdatamodel */;
+			path = LuckyForever.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02D83A6C1FEDBAEF004BBBDD /* Project object */;
+}

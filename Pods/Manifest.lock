@@ -1,0 +1,14 @@
+PODS:
+  - DRPLoadingSpinner (1.3.1):
+    - DRPLoadingSpinner/core (= 1.3.1)
+  - DRPLoadingSpinner/core (1.3.1)
+
+DEPENDENCIES:
+  - DRPLoadingSpinner (~> 1.3)
+
+SPEC CHECKSUMS:
+  DRPLoadingSpinner: 725e530bf4ebe2cc351b1fbc94d24fe8ac3300fd
+
+PODFILE CHECKSUM: 8896346b487ef5f5a2baaf0154d55be1447854c1
+
+COCOAPODS: 1.3.1

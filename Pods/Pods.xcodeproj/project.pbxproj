@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1751BE67DD916D74ECAC846AE6592BC7 /* Pods-LuckyForeverUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C68E1C0C937A39A176CC719B07ACD2D /* Pods-LuckyForeverUITests-dummy.m */; };
+		1C1C47974DFA28387B4B3F99A249A727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		323FF4DF907FB813C925B7AAFF5BB8A7 /* DRPLoadingSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F268BEA2B67447A0B6670A7DAE9282 /* DRPLoadingSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3856B6287821E63D6FF31D2630CF6D3D /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2ABFE54C0EA5745E96E09FD656408C7 /* DRPRefreshControl.m */; };
+		61F27498321AEE21504E92407008E36B /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C9897769471C5ECDFBB8C1FE1B288F /* DRPLoadingSpinner.m */; };
+		678D97297C8A87FB927C224B2886DF71 /* DRPRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0C9070F5E0A7627BDD6B0A7EC698C4 /* DRPRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A553FB851F04FAD7DAAFD9E409F909D /* DRPLoadingSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3686DBFED6A0725760454788EB2B09D1 /* DRPLoadingSpinner-dummy.m */; };
+		6CE3AEC1E47BA1540F123869029502F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		723297F93F7540BC3F545FC82F5AD53A /* Pods-LuckyForeverTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2ABB8575C684093AB5776B2B64523 /* Pods-LuckyForeverTests-dummy.m */; };
+		8A9903920C6CA3402C78978D6422C0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B07C0B4E70F7A7E3AE18AFEAE1EFBC20 /* DRPLoadingSpinnerTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4C7C86AC3EB07E5547E0F5936C7081 /* DRPLoadingSpinnerTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C334455055D89407F57FE7C85745D873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D1C29C08E3C52CC9C572530F2DEC7790 /* Pods-LuckyForever-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C2C97FFDC3B4CF64CC2B08A6FB597 /* Pods-LuckyForever-dummy.m */; };
+		D3E602F288EA940D59696A114F512EBD /* DRPRefreshControl_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5BBE819F329458DE3CA40F4979BECF /* DRPRefreshControl_Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD9C8A7BF0B195B096214B18FFF1179 /* DRPLoadingSpinnerTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D5F62B37A82709F935D5BAE1FAEE2 /* DRPLoadingSpinnerTimingFunction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD34CD6D31CD7D8C712B9E327F8145B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3021575A953C6C2C9627C8FE180B9391;
+			remoteInfo = DRPLoadingSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082C371371358F1860FA004F8C690F23 /* Pods-LuckyForeverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForeverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AA2ABB8575C684093AB5776B2B64523 /* Pods-LuckyForeverTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForeverTests-dummy.m"; sourceTree = "<group>"; };
+		0B3FFB91D5F710BC5F75E2CE20ECE036 /* libDRPLoadingSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDRPLoadingSpinner.a; path = libDRPLoadingSpinner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13768E559F9AAAA24C96793C1E1536A8 /* libPods-LuckyForeverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuckyForeverTests.a"; path = "libPods-LuckyForeverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5BBE819F329458DE3CA40F4979BECF /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl_Protected.h; path = src/core/DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
+		1C0C2C97FFDC3B4CF64CC2B08A6FB597 /* Pods-LuckyForever-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForever-dummy.m"; sourceTree = "<group>"; };
+		1FF8CD48345FA5097AB79457A22E294A /* Pods-LuckyForeverUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverUITests-resources.sh"; sourceTree = "<group>"; };
+		2458454F9ADC18F05668AABBC9C6899E /* Pods-LuckyForever-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForever-acknowledgements.plist"; sourceTree = "<group>"; };
+		24F268BEA2B67447A0B6670A7DAE9282 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = src/core/DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		2985D025C29EDF6EDF0370D9B76C3F68 /* Pods-LuckyForeverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverTests.release.xcconfig"; sourceTree = "<group>"; };
+		3686DBFED6A0725760454788EB2B09D1 /* DRPLoadingSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRPLoadingSpinner-dummy.m"; sourceTree = "<group>"; };
+		3AF3E87C3D5D31FC41AA45D0F7CFAD78 /* Pods-LuckyForever-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForever-resources.sh"; sourceTree = "<group>"; };
+		3E1E4B5705292F422EB424BE5E0336D0 /* Pods-LuckyForever-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForever-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4C7C86AC3EB07E5547E0F5936C7081 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinnerTimingFunction.h; path = src/core/DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
+		3EE92DFCF3237671CCE190DB27BC03B8 /* Pods-LuckyForeverUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForeverUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F45A665EA1A4C55A0F8B20D30F9E3CA /* Pods-LuckyForeverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FFF87E3402DEFA046E76677A9F0C67E /* DRPLoadingSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRPLoadingSpinner.xcconfig; sourceTree = "<group>"; };
+		44282BB7AC37738887DDFEE3B1DA3EB1 /* Pods-LuckyForeverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56B4C8407125FB5EA42EE99668A99683 /* libPods-LuckyForeverUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuckyForeverUITests.a"; path = "libPods-LuckyForeverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C055C7C0741A8EF2C74B73D65C85794 /* Pods-LuckyForeverTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForeverTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65639EDAD2D6ABF4A983461ADC9F188A /* Pods-LuckyForever-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForever-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C68E1C0C937A39A176CC719B07ACD2D /* Pods-LuckyForeverUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForeverUITests-dummy.m"; sourceTree = "<group>"; };
+		7C9D5F62B37A82709F935D5BAE1FAEE2 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinnerTimingFunction.m; path = src/core/DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
+		7DDC9B5223E94AE5A7E79B487689A4AE /* Pods-LuckyForeverUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForeverUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91C9897769471C5ECDFBB8C1FE1B288F /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinner.m; path = src/core/DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F59DDD730444D030543D533843E791E /* Pods-LuckyForeverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6632C6D3BF67B59826629777454EA39 /* DRPLoadingSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-prefix.pch"; sourceTree = "<group>"; };
+		CE6F2296079789640C1030DD602FD38B /* Pods-LuckyForeverTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverTests-frameworks.sh"; sourceTree = "<group>"; };
+		D3350D04A1E8E4DF6AD55B5F8FCAC3B9 /* Pods-LuckyForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForever.debug.xcconfig"; sourceTree = "<group>"; };
+		E2ABFE54C0EA5745E96E09FD656408C7 /* DRPRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = src/core/DRPRefreshControl.m; sourceTree = "<group>"; };
+		E9FA0D66930F19B389EA0247C5E332F3 /* Pods-LuckyForeverUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EBD10FD7E8FEC18C920EE84D0CDE0727 /* libPods-LuckyForever.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuckyForever.a"; path = "libPods-LuckyForever.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0C9070F5E0A7627BDD6B0A7EC698C4 /* DRPRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = src/core/DRPRefreshControl.h; sourceTree = "<group>"; };
+		EC28DAC689D68E7F6C335314860D5937 /* Pods-LuckyForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForever.release.xcconfig"; sourceTree = "<group>"; };
+		FD8BFBC44064435C4691A84DDE3FFF87 /* Pods-LuckyForeverTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BF74687F3C99C76BDA8F096E4CC57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C334455055D89407F57FE7C85745D873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FF8F5666BA9AB6AA9F9E30C6D5EF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9903920C6CA3402C78978D6422C0B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF78922A35EA9F09F1BE8B61461DC89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3AEC1E47BA1540F123869029502F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09CB84F83AA4F366115A0D8B9DCA163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1C47974DFA28387B4B3F99A249A727 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C6AA66EA6151A52FA764B7837392ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B3FFB91D5F710BC5F75E2CE20ECE036 /* libDRPLoadingSpinner.a */,
+				EBD10FD7E8FEC18C920EE84D0CDE0727 /* libPods-LuckyForever.a */,
+				13768E559F9AAAA24C96793C1E1536A8 /* libPods-LuckyForeverTests.a */,
+				56B4C8407125FB5EA42EE99668A99683 /* libPods-LuckyForeverUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25724B2DAE6C2A0C57ACAA2792ACF102 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF87E3402DEFA046E76677A9F0C67E /* DRPLoadingSpinner.xcconfig */,
+				3686DBFED6A0725760454788EB2B09D1 /* DRPLoadingSpinner-dummy.m */,
+				A6632C6D3BF67B59826629777454EA39 /* DRPLoadingSpinner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRPLoadingSpinner";
+			sourceTree = "<group>";
+		};
+		5531FCF2F499F677CFD9BB3D5CFBBADE /* core */ = {
+			isa = PBXGroup;
+			children = (
+				24F268BEA2B67447A0B6670A7DAE9282 /* DRPLoadingSpinner.h */,
+				91C9897769471C5ECDFBB8C1FE1B288F /* DRPLoadingSpinner.m */,
+				3E4C7C86AC3EB07E5547E0F5936C7081 /* DRPLoadingSpinnerTimingFunction.h */,
+				7C9D5F62B37A82709F935D5BAE1FAEE2 /* DRPLoadingSpinnerTimingFunction.m */,
+				EC0C9070F5E0A7627BDD6B0A7EC698C4 /* DRPRefreshControl.h */,
+				E2ABFE54C0EA5745E96E09FD656408C7 /* DRPRefreshControl.m */,
+				1A5BBE819F329458DE3CA40F4979BECF /* DRPRefreshControl_Protected.h */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DA5842011E7CCA2D2584A9DEA2373791 /* Pods */,
+				06C6AA66EA6151A52FA764B7837392ED /* Products */,
+				EDB3758D00F4273E230447B6AAFDCA64 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8054F41BF87DD8F68759C795E15379 /* Pods-LuckyForever */ = {
+			isa = PBXGroup;
+			children = (
+				3E1E4B5705292F422EB424BE5E0336D0 /* Pods-LuckyForever-acknowledgements.markdown */,
+				2458454F9ADC18F05668AABBC9C6899E /* Pods-LuckyForever-acknowledgements.plist */,
+				1C0C2C97FFDC3B4CF64CC2B08A6FB597 /* Pods-LuckyForever-dummy.m */,
+				65639EDAD2D6ABF4A983461ADC9F188A /* Pods-LuckyForever-frameworks.sh */,
+				3AF3E87C3D5D31FC41AA45D0F7CFAD78 /* Pods-LuckyForever-resources.sh */,
+				D3350D04A1E8E4DF6AD55B5F8FCAC3B9 /* Pods-LuckyForever.debug.xcconfig */,
+				EC28DAC689D68E7F6C335314860D5937 /* Pods-LuckyForever.release.xcconfig */,
+			);
+			name = "Pods-LuckyForever";
+			path = "Target Support Files/Pods-LuckyForever";
+			sourceTree = "<group>";
+		};
+		AE9E38BB730874DBE57CBD250441E2FF /* Pods-LuckyForeverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE92DFCF3237671CCE190DB27BC03B8 /* Pods-LuckyForeverUITests-acknowledgements.markdown */,
+				7DDC9B5223E94AE5A7E79B487689A4AE /* Pods-LuckyForeverUITests-acknowledgements.plist */,
+				6C68E1C0C937A39A176CC719B07ACD2D /* Pods-LuckyForeverUITests-dummy.m */,
+				E9FA0D66930F19B389EA0247C5E332F3 /* Pods-LuckyForeverUITests-frameworks.sh */,
+				1FF8CD48345FA5097AB79457A22E294A /* Pods-LuckyForeverUITests-resources.sh */,
+				3F45A665EA1A4C55A0F8B20D30F9E3CA /* Pods-LuckyForeverUITests.debug.xcconfig */,
+				9F59DDD730444D030543D533843E791E /* Pods-LuckyForeverUITests.release.xcconfig */,
+			);
+			name = "Pods-LuckyForeverUITests";
+			path = "Target Support Files/Pods-LuckyForeverUITests";
+			sourceTree = "<group>";
+		};
+		B3F32CA1E35134A0D3CC793EB1CFC00C /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				5531FCF2F499F677CFD9BB3D5CFBBADE /* core */,
+				25724B2DAE6C2A0C57ACAA2792ACF102 /* Support Files */,
+			);
+			name = DRPLoadingSpinner;
+			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFDF0C65D91C3304DF42B7E486959BCD /* Pods-LuckyForeverTests */ = {
+			isa = PBXGroup;
+			children = (
+				082C371371358F1860FA004F8C690F23 /* Pods-LuckyForeverTests-acknowledgements.markdown */,
+				5C055C7C0741A8EF2C74B73D65C85794 /* Pods-LuckyForeverTests-acknowledgements.plist */,
+				0AA2ABB8575C684093AB5776B2B64523 /* Pods-LuckyForeverTests-dummy.m */,
+				CE6F2296079789640C1030DD602FD38B /* Pods-LuckyForeverTests-frameworks.sh */,
+				FD8BFBC44064435C4691A84DDE3FFF87 /* Pods-LuckyForeverTests-resources.sh */,
+				44282BB7AC37738887DDFEE3B1DA3EB1 /* Pods-LuckyForeverTests.debug.xcconfig */,
+				2985D025C29EDF6EDF0370D9B76C3F68 /* Pods-LuckyForeverTests.release.xcconfig */,
+			);
+			name = "Pods-LuckyForeverTests";
+			path = "Target Support Files/Pods-LuckyForeverTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA5842011E7CCA2D2584A9DEA2373791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F32CA1E35134A0D3CC793EB1CFC00C /* DRPLoadingSpinner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDB3758D00F4273E230447B6AAFDCA64 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8054F41BF87DD8F68759C795E15379 /* Pods-LuckyForever */,
+				BFDF0C65D91C3304DF42B7E486959BCD /* Pods-LuckyForeverTests */,
+				AE9E38BB730874DBE57CBD250441E2FF /* Pods-LuckyForeverUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		965B15C1E35309DAE455DF1EF19C431F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323FF4DF907FB813C925B7AAFF5BB8A7 /* DRPLoadingSpinner.h in Headers */,
+				B07C0B4E70F7A7E3AE18AFEAE1EFBC20 /* DRPLoadingSpinnerTimingFunction.h in Headers */,
+				678D97297C8A87FB927C224B2886DF71 /* DRPRefreshControl.h in Headers */,
+				D3E602F288EA940D59696A114F512EBD /* DRPRefreshControl_Protected.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3021575A953C6C2C9627C8FE180B9391 /* DRPLoadingSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22053D40BA3527C74D397F646AB12D7 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */;
+			buildPhases = (
+				8B31F92881702058D02E3FD721C76585 /* Sources */,
+				26BF74687F3C99C76BDA8F096E4CC57F /* Frameworks */,
+				965B15C1E35309DAE455DF1EF19C431F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRPLoadingSpinner;
+			productName = DRPLoadingSpinner;
+			productReference = 0B3FFB91D5F710BC5F75E2CE20ECE036 /* libDRPLoadingSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3B191F83043C80ACA6DF64022BC400F9 /* Pods-LuckyForeverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AD0E7967B39B3374B4D7F93FA66F34 /* Build configuration list for PBXNativeTarget "Pods-LuckyForeverTests" */;
+			buildPhases = (
+				FD087FB5356D56AE281AD0016B4B0A42 /* Sources */,
+				F09CB84F83AA4F366115A0D8B9DCA163 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LuckyForeverTests";
+			productName = "Pods-LuckyForeverTests";
+			productReference = 13768E559F9AAAA24C96793C1E1536A8 /* libPods-LuckyForeverTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C897246826EB81E903282C55893DB0B /* Pods-LuckyForeverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13FC2D35C6A3B32E3F6A5DD3EFBC5B5 /* Build configuration list for PBXNativeTarget "Pods-LuckyForeverUITests" */;
+			buildPhases = (
+				4F41ABBADE6FAEB00521F49C1B5C3BA5 /* Sources */,
+				EF78922A35EA9F09F1BE8B61461DC89B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LuckyForeverUITests";
+			productName = "Pods-LuckyForeverUITests";
+			productReference = 56B4C8407125FB5EA42EE99668A99683 /* libPods-LuckyForeverUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2F47F312FEB0EE6494E39A9C4ADD678 /* Pods-LuckyForever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327C821CF9EBDBF0AAC9C8784D337205 /* Build configuration list for PBXNativeTarget "Pods-LuckyForever" */;
+			buildPhases = (
+				AC2E4686D90F6E7D98BAE4DB06225ED0 /* Sources */,
+				40FF8F5666BA9AB6AA9F9E30C6D5EF3B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F654500D87C7342A24F6929EC25375C /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckyForever";
+			productName = "Pods-LuckyForever";
+			productReference = EBD10FD7E8FEC18C920EE84D0CDE0727 /* libPods-LuckyForever.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 06C6AA66EA6151A52FA764B7837392ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3021575A953C6C2C9627C8FE180B9391 /* DRPLoadingSpinner */,
+				A2F47F312FEB0EE6494E39A9C4ADD678 /* Pods-LuckyForever */,
+				3B191F83043C80ACA6DF64022BC400F9 /* Pods-LuckyForeverTests */,
+				8C897246826EB81E903282C55893DB0B /* Pods-LuckyForeverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F41ABBADE6FAEB00521F49C1B5C3BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1751BE67DD916D74ECAC846AE6592BC7 /* Pods-LuckyForeverUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B31F92881702058D02E3FD721C76585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A553FB851F04FAD7DAAFD9E409F909D /* DRPLoadingSpinner-dummy.m in Sources */,
+				61F27498321AEE21504E92407008E36B /* DRPLoadingSpinner.m in Sources */,
+				EBD9C8A7BF0B195B096214B18FFF1179 /* DRPLoadingSpinnerTimingFunction.m in Sources */,
+				3856B6287821E63D6FF31D2630CF6D3D /* DRPRefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E4686D90F6E7D98BAE4DB06225ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C29C08E3C52CC9C572530F2DEC7790 /* Pods-LuckyForever-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD087FB5356D56AE281AD0016B4B0A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723297F93F7540BC3F545FC82F5AD53A /* Pods-LuckyForeverTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F654500D87C7342A24F6929EC25375C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRPLoadingSpinner;
+			target = 3021575A953C6C2C9627C8FE180B9391 /* DRPLoadingSpinner */;
+			targetProxy = 8CD34CD6D31CD7D8C712B9E327F8145B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131F1412D95C4D7F440D1B703FCAB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFF87E3402DEFA046E76677A9F0C67E /* DRPLoadingSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BCD06F8CAEE3D9B24A921CB4EC3D452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC28DAC689D68E7F6C335314860D5937 /* Pods-LuckyForever.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F51DD511169417A294B26064AE20B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFF87E3402DEFA046E76677A9F0C67E /* DRPLoadingSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		751FC32EFD0C9EC90FE9D40F7B9D9FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3350D04A1E8E4DF6AD55B5F8FCAC3B9 /* Pods-LuckyForever.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79EE77FB085D6B5AEDA1A37EE7FA7B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2985D025C29EDF6EDF0370D9B76C3F68 /* Pods-LuckyForeverTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE55CE960A1177772102C70D832259B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F59DDD730444D030543D533843E791E /* Pods-LuckyForeverUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5035AABC3AA65E98E7BD0249EAD963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44282BB7AC37738887DDFEE3B1DA3EB1 /* Pods-LuckyForeverTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD0967584809467A0FE4C7561838E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F45A665EA1A4C55A0F8B20D30F9E3CA /* Pods-LuckyForeverUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AD0E7967B39B3374B4D7F93FA66F34 /* Build configuration list for PBXNativeTarget "Pods-LuckyForeverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5035AABC3AA65E98E7BD0249EAD963D /* Debug */,
+				79EE77FB085D6B5AEDA1A37EE7FA7B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327C821CF9EBDBF0AAC9C8784D337205 /* Build configuration list for PBXNativeTarget "Pods-LuckyForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751FC32EFD0C9EC90FE9D40F7B9D9FC2 /* Debug */,
+				1BCD06F8CAEE3D9B24A921CB4EC3D452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22053D40BA3527C74D397F646AB12D7 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F51DD511169417A294B26064AE20B79 /* Debug */,
+				131F1412D95C4D7F440D1B703FCAB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13FC2D35C6A3B32E3F6A5DD3EFBC5B5 /* Build configuration list for PBXNativeTarget "Pods-LuckyForeverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD0967584809467A0FE4C7561838E81 /* Debug */,
+				AE55CE960A1177772102C70D832259B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
