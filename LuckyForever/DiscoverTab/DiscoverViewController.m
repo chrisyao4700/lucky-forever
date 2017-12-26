@@ -13,6 +13,7 @@
 #import "DiscoverFooterCell.h"
 #import "DiscoverData.h"
 #import "DiscoverDetailViewController.h"
+#import "CYWebHandler.h"
 @interface DiscoverViewController ()
 
 @end
@@ -196,7 +197,9 @@
             sitePool = [sitesPool objectAtIndex:indexPath.item];
             //cell.contentLabel.text = [sitePool objectForKey:@"siteName"];
         }
-        [self performSegueWithIdentifier:@"toDiscoverDetail" sender:self];
+        //[self performSegueWithIdentifier:@"toDiscoverDetail" sender:self];
+        [CYWebHandler openWebWithURL:[NSURL URLWithString:[sitePool objectForKey:@"pageURL"]]];
+    
     }
     if (indexPath.section == 7) {
         //FOOTER

@@ -1,1 +1,0 @@
-../../../DRPLoadingSpinner/src/core/DRPLoadingSpinnerTimingFunction.h

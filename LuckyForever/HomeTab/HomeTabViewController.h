@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@import FSPagerView;
+@interface HomeTabViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,FSPagerViewDelegate,FSPagerViewDataSource>
 
-@interface HomeTabViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource>
-@property (strong, nonatomic) IBOutlet UICollectionView *topContentView;
+@property (weak, nonatomic) IBOutlet FSPagerView *pageView;
+
 @property (strong, nonatomic) IBOutlet UICollectionView *bottomContentView;
 
 @end

@@ -11,6 +11,7 @@
 #import "LotteryDetailViewController.h"
 #import "LotteryData.h"
 #import "CYCalendarHandler.h"
+#import "CYWebHandler.h"
 
 @interface HomeTabViewController ()
 
@@ -27,7 +28,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     buttons = [LotteryData getLotteryList];
-    
+    self.pageView.delegate = self;
+    self.pageView.dataSource = self;
+    [self.pageView registerClass:[FSPagerViewCell class] forCellWithReuseIdentifier:@"cell"];
+    self.pageView.transformer = [[FSPagerViewTransformer alloc] initWithType:FSPagerViewTransformerTypeCubic];
+    self.pageView.isInfinite = YES;
     // Do any additional setup after loading the view.
 }
 
@@ -38,20 +43,20 @@
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
     
-    if (collectionView.tag == 1) {
-        return 1;
-    }
+//    if (collectionView.tag == 1) {
+//        return 1;
+//    }
     if (collectionView.tag == 2) {
         return 1;
     }
     return 0;
 }
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    if (collectionView.tag == 1) {
-        if (section == 0) {
-            return 2;
-        }
-    }
+//    if (collectionView.tag == 1) {
+//        if (section == 0) {
+//            return 2;
+//        }
+//    }
     if (collectionView.tag == 2) {
         if (section == 0) {
             return 12;
@@ -60,18 +65,18 @@
     return 0;
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    if (collectionView.tag == 1) {
-        HomeTabTopCollectionViewCell * cell = (HomeTabTopCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"topCell" forIndexPath:indexPath];
-        if (indexPath.section == 0) {
-            if (indexPath.row == 0) {
-                cell.contentImageView.image = [UIImage imageNamed:@"top_content_0"];
-            }
-            if (indexPath.row == 1) {
-                cell.contentImageView.image = [UIImage imageNamed:@"top_content_1"];
-            }
-        }
-        return cell;
-    }
+//    if (collectionView.tag == 1) {
+//        HomeTabTopCollectionViewCell * cell = (HomeTabTopCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"topCell" forIndexPath:indexPath];
+//        if (indexPath.section == 0) {
+//            if (indexPath.row == 0) {
+//                cell.contentImageView.image = [UIImage imageNamed:@"top_content_0"];
+//            }
+//            if (indexPath.row == 1) {
+//                cell.contentImageView.image = [UIImage imageNamed:@"top_content_1"];
+//            }
+//        }
+//        return cell;
+//    }
     if (collectionView.tag == 2) {
         UICollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"bottomCell" forIndexPath:indexPath];
         for(UIView * subview in cell.subviews){
@@ -109,11 +114,11 @@
 {
     
     CGSize size = CGSizeMake(0,0);
-    if (collectionView.tag == 1) {
-        CGRect screenRect = [[UIScreen mainScreen] bounds];
-        CGFloat screenWidth = screenRect.size.width;
-        size = CGSizeMake(screenWidth, 158);
-    }
+//    if (collectionView.tag == 1) {
+//        CGRect screenRect = [[UIScreen mainScreen] bounds];
+//        CGFloat screenWidth = screenRect.size.width;
+//        size = CGSizeMake(screenWidth, 158);
+//    }
     if (collectionView.tag == 2) {
         CGRect screenRect = self.bottomContentView.bounds;
         CGFloat screenWidth = screenRect.size.width;
@@ -124,24 +129,26 @@
     return size;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    if (collectionView.tag == 1) {
-                NSDictionary * dict = @{
-                                        @"title":@"大红鹰打折",
-                                        @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
-                                        @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
-                                        };
-                [CYCalendarHandler addCalendarEvent:dict];
-        //NSLog(@"I am here");
-        
-        
-    }
+//    if (collectionView.tag == 1) {
+//                NSDictionary * dict = @{
+//                                        @"title":@"大红鹰打折",
+//                                        @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
+//                                        @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
+//                                        };
+//                [CYCalendarHandler addCalendarEvent:dict];
+//        //NSLog(@"I am here");
+//
+//
+//    }
     
     if (collectionView.tag == 2) {
         pool = [buttons objectAtIndex:indexPath.item];
-        [self performSegueWithIdentifier:@"toLotteryDetail" sender:self];
+        [CYWebHandler openWebWithURL:[NSURL URLWithString:[pool objectForKey:@"websitePage"]]];
+        //[self performSegueWithIdentifier:@"toLotteryDetail" sender:self];
         
     }
 }
+
 -(CGRect) configTitleLabelRectWithCell:(UICollectionViewCell *) cell{
     float cell_width = cell.bounds.size.width;
     float label_width = cell_width -16;
@@ -159,6 +166,24 @@
     
 }
 
+
+#pragma mark - END OF COLLECTION VIEW
+
+
+#pragma mark - START OF PAGER VIEW
+-(NSInteger)numberOfItemsInPagerView:(FSPagerView *)pagerView{
+    return 2;
+}
+
+- (FSPagerViewCell *)pagerView:(FSPagerView *)pagerView cellForItemAtIndex:(NSInteger)index
+{
+    FSPagerViewCell *cell = [pagerView dequeueReusableCellWithReuseIdentifier:@"cell" atIndex:index];
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"top_content_%ld",(long)index]];
+    return cell;
+}
+-(void)pagerView:(FSPagerView *)pagerView didSelectItemAtIndex:(NSInteger)index{
+    [CYWebHandler openWebWithURL:[NSURL URLWithString:@"https://www.dhycp88.com/dhyLoginWeb/app/home"]];
+}
 
 #pragma mark - Navigation
 

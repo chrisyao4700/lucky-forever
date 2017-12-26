@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CYNotificationHandler.h"
+#import "CYWebHandler.h"
 
 @interface AppDelegate ()
 
@@ -59,14 +60,9 @@
 //    ne.cdate = [NSDate date];
 //    ne.webLink = [event objectForKey:@"url"];
 //    ne.message = [event objectForKey:@"message"];
+    [CYWebHandler openWebWithURL:[NSURL URLWithString:([(NSString *)[userInfo objectForKey:@"url"] containsString:@"http"])?[userInfo objectForKey:@"url"]:[NSString stringWithFormat:@"http://%@",[userInfo objectForKey:@"url"]]]];
     
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [CYNotificationHandler addEventToCoredata:[CYNotificationHandler configEventDict:userInfo]];
-        NSLog(@"%@",userInfo);
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:([(NSString *)[userInfo objectForKey:@"url"] containsString:@"http"])?[userInfo objectForKey:@"url"]:[NSString stringWithFormat:@"http://%@",[userInfo objectForKey:@"url"]]]options:@{} completionHandler:^(BOOL success){
-            
-        }];
-    });
+    
     
 }
 
@@ -74,7 +70,6 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
-    
     //[UNUserNotificationCenter currentNotificationCenter] get
 }
 
@@ -117,6 +112,7 @@
     //  [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
     
     //NSLog(@"Hellow World! \n%@",application.description);
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
 }
 
 

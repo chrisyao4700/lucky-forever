@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -482,47 +483,6 @@
                                     <constraint firstAttribute="height" constant="64" id="mIU-xT-I7w"/>
                                 </constraints>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QZC-FP-dSE">
-                                <rect key="frame" x="0.0" y="64" width="375" height="158"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="158" id="svm-0U-yBa"/>
-                                </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Toz-AC-g7b">
-                                    <size key="itemSize" width="375" height="158"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="topCell" id="069-YE-mNP" customClass="HomeTabTopCollectionViewCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RtT-AO-LBa">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="158"/>
-                                                </imageView>
-                                            </subviews>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="RtT-AO-LBa" secondAttribute="trailing" id="Dbw-dC-7CT"/>
-                                            <constraint firstItem="RtT-AO-LBa" firstAttribute="leading" secondItem="069-YE-mNP" secondAttribute="leading" id="HL3-oh-QST"/>
-                                            <constraint firstAttribute="bottom" secondItem="RtT-AO-LBa" secondAttribute="bottom" id="eHu-4o-Fux"/>
-                                            <constraint firstItem="RtT-AO-LBa" firstAttribute="top" secondItem="069-YE-mNP" secondAttribute="top" id="zVe-Km-YwF"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="contentImageView" destination="RtT-AO-LBa" id="hZI-gW-Sjd"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="DCe-S8-P3P" id="r1W-UJ-sox"/>
-                                    <outlet property="delegate" destination="DCe-S8-P3P" id="uyh-Ph-xQt"/>
-                                </connections>
-                            </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QNQ-6L-qTY">
                                 <rect key="frame" x="0.0" y="276" width="375" height="342"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -576,29 +536,36 @@
                                     <constraint firstItem="tKF-1V-don" firstAttribute="centerY" secondItem="NX8-mt-GH4" secondAttribute="centerY" id="TSp-gJ-W2O"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZz-Yh-s5k" customClass="FSPagerView" customModule="FSPagerView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="163"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="dqp-Fl-lVM"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.8587297797203064" green="0.85887759923934937" blue="0.85872042179107666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NX8-mt-GH4" firstAttribute="trailing" secondItem="3No-7f-673" secondAttribute="trailing" id="6AX-Jn-gbM"/>
                             <constraint firstItem="QNQ-6L-qTY" firstAttribute="top" secondItem="NX8-mt-GH4" secondAttribute="bottom" constant="5" id="6Rp-gK-FR3"/>
+                            <constraint firstItem="NX8-mt-GH4" firstAttribute="top" secondItem="cZz-Yh-s5k" secondAttribute="bottom" id="9dI-y1-MvC"/>
                             <constraint firstItem="QNQ-6L-qTY" firstAttribute="trailing" secondItem="3No-7f-673" secondAttribute="trailing" id="BWi-6d-mPI"/>
-                            <constraint firstItem="NX8-mt-GH4" firstAttribute="top" secondItem="QZC-FP-dSE" secondAttribute="bottom" constant="5" id="GEN-B4-Cza"/>
                             <constraint firstItem="NX8-mt-GH4" firstAttribute="leading" secondItem="3No-7f-673" secondAttribute="leading" id="MVE-XI-I0x"/>
                             <constraint firstItem="mqL-XP-yBE" firstAttribute="top" secondItem="jbU-sH-7Sf" secondAttribute="top" id="R51-YJ-TYD"/>
+                            <constraint firstItem="cZz-Yh-s5k" firstAttribute="trailing" secondItem="3No-7f-673" secondAttribute="trailing" id="SSl-37-cgd"/>
                             <constraint firstItem="mqL-XP-yBE" firstAttribute="leading" secondItem="3No-7f-673" secondAttribute="leading" id="eIF-zg-OHf"/>
                             <constraint firstItem="QNQ-6L-qTY" firstAttribute="bottom" secondItem="3No-7f-673" secondAttribute="bottom" id="gCC-Ew-K1E"/>
-                            <constraint firstItem="QZC-FP-dSE" firstAttribute="leading" secondItem="3No-7f-673" secondAttribute="leading" id="hoU-mV-hkR"/>
+                            <constraint firstItem="cZz-Yh-s5k" firstAttribute="top" secondItem="mqL-XP-yBE" secondAttribute="bottom" id="mgy-24-cbr"/>
+                            <constraint firstItem="cZz-Yh-s5k" firstAttribute="leading" secondItem="3No-7f-673" secondAttribute="leading" id="p5y-be-JKW"/>
                             <constraint firstItem="mqL-XP-yBE" firstAttribute="trailing" secondItem="3No-7f-673" secondAttribute="trailing" id="sOO-EZ-T2o"/>
-                            <constraint firstItem="QZC-FP-dSE" firstAttribute="top" secondItem="mqL-XP-yBE" secondAttribute="bottom" id="sTH-ej-pA7"/>
                             <constraint firstItem="QNQ-6L-qTY" firstAttribute="leading" secondItem="3No-7f-673" secondAttribute="leading" id="wuA-17-qFK"/>
-                            <constraint firstItem="QZC-FP-dSE" firstAttribute="trailing" secondItem="3No-7f-673" secondAttribute="trailing" id="xKD-Ed-qA6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3No-7f-673"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="购彩大厅" image="tab-home" id="VgL-Fe-xTK"/>
                     <connections>
                         <outlet property="bottomContentView" destination="QNQ-6L-qTY" id="VRw-G8-hSc"/>
-                        <outlet property="topContentView" destination="QZC-FP-dSE" id="Cne-ft-XPg"/>
+                        <outlet property="pageView" destination="cZz-Yh-s5k" id="C6J-3Y-cRF"/>
                         <segue destination="vSf-Lu-hrb" kind="presentation" identifier="toLotteryDetail" id="Gzl-hP-xeZ"/>
                     </connections>
                 </viewController>
@@ -665,7 +632,7 @@
                         <viewLayoutGuide key="safeArea" id="tE6-et-phj"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="LZJ-OL-lyu" id="0vx-2m-IMv"/>
+                        <outlet property="webView" destination="LZJ-OL-lyu" id="3Zw-GQ-bIB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xeZ-8Z-Uwq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -751,7 +718,7 @@
                         <viewLayoutGuide key="safeArea" id="inw-on-8sN"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="vVX-Y2-lil" id="kbR-1E-UYn"/>
+                        <outlet property="webView" destination="vVX-Y2-lil" id="ABQ-aX-XvQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="605-lO-FuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>

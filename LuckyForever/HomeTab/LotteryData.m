@@ -14,7 +14,7 @@
                 @{
                     @"title":@"大发快3",
                     @"desc":@"1分钟1期",
-                    @"websitePage":@"https://od.server.com"
+                    @"websitePage":@"https://chart.ydniu.com/trend/k3bj/"
                     },
                 @{
                     @"title":@"北京快3",

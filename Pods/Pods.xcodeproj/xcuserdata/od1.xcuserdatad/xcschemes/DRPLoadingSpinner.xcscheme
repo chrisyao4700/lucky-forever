@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3021575A953C6C2C9627C8FE180B9391'
+               BlueprintIdentifier = '0B4B5C17B2F13C31C40216490E08C824'
                BlueprintName = 'DRPLoadingSpinner'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libDRPLoadingSpinner.a'>
+               BuildableName = 'DRPLoadingSpinner.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

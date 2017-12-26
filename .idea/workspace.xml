@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee45af9b-234b-4203-90dd-802f95f0f897" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1@3x.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/LuckyForever.xcscheme" afterPath="$PROJECT_DIR$/LuckyForever.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/LuckyForever.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h" afterPath="$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" />
+      <change beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/DRPLoadingSpinner/DRPLoadingSpinner.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/DRPLoadingSpinner/DRPLoadingSpinnerTimingFunction.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/DRPLoadingSpinner/DRPRefreshControl.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Private/DRPLoadingSpinner/DRPRefreshControl_Protected.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/DRPLoadingSpinner/DRPLoadingSpinner.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/DRPLoadingSpinner/DRPLoadingSpinnerTimingFunction.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/DRPLoadingSpinner/DRPRefreshControl.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Headers/Public/DRPLoadingSpinner/DRPRefreshControl_Protected.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/DRPLoadingSpinner.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/DRPLoadingSpinner.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForever.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForever.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForeverTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForeverTests.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForeverUITests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForeverUITests.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.markdown" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.plist" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,8 +51,86 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_6914579a2e951d799869fa47bb663f2ba17a53aa" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DiscoverViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoverViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoverDetailViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="e#137#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LotteryDetailViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoverDetailViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LotteryDetailViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#136#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" />
+        <option value="$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h" />
+        <option value="$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m" />
+        <option value="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -21,7 +138,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -93,34 +210,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513981248232</updated>
-      <workItem from="1513981251083" duration="1264000" />
+      <workItem from="1513981251083" duration="1849000" />
+      <workItem from="1513986894100" duration="1257000" />
+      <workItem from="1514314070917" duration="1505000" />
+      <workItem from="1514315679749" duration="208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1264000" />
+    <option name="totallyTimeSpent" value="4819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="775" extended-state="1" />
+    <frame x="40" y="23" width="1400" height="775" extended-state="0" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -133,5 +253,111 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#137#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#136#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#136#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#137#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
