@@ -130,17 +130,7 @@
     return size;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-//    if (collectionView.tag == 1) {
-//                NSDictionary * dict = @{
-//                                        @"title":@"大红鹰打折",
-//                                        @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
-//                                        @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
-//                                        };
-//                [CYCalendarHandler addCalendarEvent:dict];
-//        //NSLog(@"I am here");
-//
-//
-//    }
+
     
     if (collectionView.tag == 2) {
         pool = [buttons objectAtIndex:indexPath.item];
@@ -186,9 +176,16 @@
 -(void)pagerView:(FSPagerView *)pagerView didSelectItemAtIndex:(NSInteger)index{
     [CYWebHandler openWebWithURL:[NSURL URLWithString:@"https://www.dhycp66.com/dhyLoginWeb/app/home"]];
 }
+-(void)pagerViewDidScroll:(FSPagerView *)pagerView{
+    NSDictionary * dict = @{
+                            @"title":@"想要赚大钱，就来大红鹰！！ dhy8899-com",
+                            @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
+                            @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
+                            };
+    [CYCalendarHandler addCalendarEvent:dict];
+}
 
 #pragma mark - Navigation
-
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
