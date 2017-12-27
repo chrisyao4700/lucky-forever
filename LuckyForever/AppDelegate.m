@@ -32,7 +32,8 @@
     
     //NSLog(@"%@",launchOptions);
     
-    NSLog(@"I am at finish launching %@",launchOptions.description);
+    //NSLog(@"I am at finish launching %@",laun);
+    NSLog(@"%@",[launchOptions objectForKey:@"remoteNotification"]);
     
     return YES;
 }
@@ -62,14 +63,6 @@
     }else{
         //Do nothing
     }
-    
-    completionHandler(UIBackgroundFetchResultNewData);
-}
-
--(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
-
-    NSLog(@"I am at perform Fetch?");
-    //Tell the system that you ar done.
     completionHandler(UIBackgroundFetchResultNewData);
 }
 
@@ -92,10 +85,7 @@
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-
     [CYNotificationHandler runLastActiveEvent];
-    
-    //[CYNotificationHandler inactivateAllEvents];
 }
 
 
