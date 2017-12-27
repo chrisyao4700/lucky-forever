@@ -12,7 +12,8 @@
 
 +(void) addEventToCoredata:(NSDictionary *) event;
 +(void) inactivateEventInCoredata:(NSDictionary *) event;
-+(NotificationEvent *) getLastActiveEvent;
++(void) runLastActiveEvent;
 +(NSDictionary *) configEventDict:(NSDictionary *) userInfo;
 +(NSArray *) getLastTenEvents;
++(void) inactivateAllEvents;
 @end

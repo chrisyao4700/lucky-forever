@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CYWebHandler : NSObject
++(void) openWebWithURL:(NSURL *) url
+       completeHandler: ( void (^)(BOOL success ) )successHandler;
 +(void) openWebWithURL:(NSURL *) url;
 @end

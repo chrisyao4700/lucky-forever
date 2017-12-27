@@ -23,8 +23,6 @@
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     spinner = [[DRPLoadingSpinner alloc] initWithFrame:CGRectMake((screenRect.size.width/2)-25, (screenRect.size.height/2)-25, 50, 50)];
     [self.view addSubview:spinner];
-    
-    
     // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated{

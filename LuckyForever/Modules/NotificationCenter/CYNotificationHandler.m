@@ -8,8 +8,9 @@
 
 #import "CYNotificationHandler.h"
 #import "AppDelegate.h"
-
+#import "CYWebHandler.h"
 @implementation CYNotificationHandler
+
 +(void) addEventToCoredata:(NSDictionary *) event{
     AppDelegate *app = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     NSManagedObjectContext* managedObjectContext = app.persistentContainer.viewContext;
@@ -50,8 +51,6 @@
         NSLog(@"Added event to Coredata(?): %@",ne);
     }
     NSError * s_error;
-    
-    
     [managedObjectContext save:&s_error];
 }
 +(void) inactivateEventInCoredata:(NSDictionary *) event{
@@ -71,7 +70,7 @@
         }
         NotificationEvent * ne = (NotificationEvent *)[NSEntityDescription insertNewObjectForEntityForName:@"NotificationEvent" inManagedObjectContext:managedObjectContext];
         ne.event_id = [event objectForKey:@"event_id"];
-        ne.isActive = YES;
+        ne.isActive = NO;
         ne.cdate = [NSDate date];
         ne.webLink = [event objectForKey:@"url"];
         ne.message = [event objectForKey:@"message"];
@@ -79,21 +78,33 @@
     NSError * s_error;
     [managedObjectContext save:&s_error];
 }
-+(NotificationEvent *) getLastActiveEvent{
+
++(void) runLastActiveEvent{
     AppDelegate *app = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     NSManagedObjectContext* managedObjectContext = app.persistentContainer.viewContext;
     NSFetchRequest *request = [NotificationEvent fetchRequest];
-    [request setPredicate:[NSPredicate predicateWithFormat:@"isActive == %@", [NSNumber numberWithBool:NO]]];
+    [request setPredicate:[NSPredicate predicateWithFormat:@"isActive == %@", [NSNumber numberWithBool:YES]]];
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"cdate"
                                                                    ascending:NO];
     [request setSortDescriptors:@[sortDescriptor]];
     NSError *error = nil;
     NSArray * array = [managedObjectContext executeFetchRequest:request error:&error];
     
-    if (array>0) {
-        return [array lastObject];
+    //NSLog(@"I am at run last\nArray: %@",array.description);
+    if (array.count>0) {
+        //return [array lastObject];
+        NotificationEvent * ne = [array lastObject];
+        NSLog(@"Printing NE ! %@", ne.webLink);
+        [CYWebHandler openWebWithURL:[NSURL URLWithString:([(NSString *)ne.webLink containsString:@"http"])?ne.webLink:[NSString stringWithFormat:@"http://%@",ne.webLink]] completeHandler:^(BOOL success){
+            if (success == YES) {
+                [CYNotificationHandler inactivateAllEvents];
+            }
+        }];
+        
     }else{
-        return nil;
+        //return nil;
+        
+        NSLog(@"No active result.");
     }
 }
 
@@ -109,7 +120,6 @@
     NSError *error = nil;
     NSArray * array = [managedObjectContext executeFetchRequest:request error:&error];
     return array;
-
 }
 +(NSDictionary *) configEventDict:(NSDictionary *) userInfo{
     return @{
@@ -119,4 +129,23 @@
              };
 }
 
++(void) inactivateAllEvents{
+    AppDelegate *app = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext* managedObjectContext = app.persistentContainer.viewContext;
+    NSFetchRequest *request = [NotificationEvent fetchRequest];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"cdate"
+                                                                   ascending:NO];
+    [request setSortDescriptors:@[sortDescriptor]];
+    NSError *error = nil;
+    NSArray * array = [managedObjectContext executeFetchRequest:request error:&error];
+    
+    if (array.count > 0) {
+        for (NotificationEvent * aNE in array) {
+            [managedObjectContext deleteObject:aNE];
+        }
+    }
+    NSError *s_error = nil;
+    [managedObjectContext save:&s_error];
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+}
 @end

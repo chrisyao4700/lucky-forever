@@ -9,13 +9,20 @@
 #import "CYWebHandler.h"
 
 @implementation CYWebHandler
++(void) openWebWithURL:(NSURL *) url
+       completeHandler: ( void (^)(BOOL success ) )successHandler{
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //[CYNotificationHandler addEventToCoredata:[CYNotificationHandler configEventDict:userInfo]];
+        //NSLog(@"%@",userInfo);
+        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:successHandler];
+    });
+}
 +(void) openWebWithURL:(NSURL *) url{
     dispatch_async(dispatch_get_main_queue(), ^{
         //[CYNotificationHandler addEventToCoredata:[CYNotificationHandler configEventDict:userInfo]];
         //NSLog(@"%@",userInfo);
-        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success){
-            
-        }];
+        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
     });
 }
 

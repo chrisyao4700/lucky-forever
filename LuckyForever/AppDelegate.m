@@ -32,6 +32,8 @@
     
     //NSLog(@"%@",launchOptions);
     
+    NSLog(@"I am at finish launching %@",launchOptions.description);
+    
     return YES;
 }
 
@@ -42,30 +44,34 @@
     token = [token stringByReplacingOccurrencesOfString:@">" withString:@""];
     token = [token stringByReplacingOccurrencesOfString:@"<" withString:@""];
     NSLog(@"deviceToken:\n %@", token);
-    
-    //NSLog(@"Get Last %@", [CYNotificationHandler getLastActiveEvent]);
-    //NSLog(@"Get Last ten %@",[CYNotificationHandler getLastTenEvents]);
-    for (NotificationEvent * event in [CYNotificationHandler getLastTenEvents]) {
-        NSLog(@"%@",event);
-    }
    
 }
 
-
 -(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
-    //NSLog(@"I am assumed back end");
+    NSLog(@"I am at did Receive Remote Notification %@", userInfo.description);
+    [CYNotificationHandler addEventToCoredata:[CYNotificationHandler configEventDict:userInfo]];
+    if (application.applicationState == UIApplicationStateActive) {
+        [CYWebHandler openWebWithURL:[NSURL URLWithString:([(NSString *)[userInfo objectForKey:@"url"] containsString:@"http"])?[userInfo objectForKey:@"url"]:[NSString stringWithFormat:@"http://%@",[userInfo objectForKey:@"url"]]] completeHandler:^(BOOL success){
+            if (success == YES) {
+                [CYNotificationHandler inactivateEventInCoredata:[CYNotificationHandler configEventDict:userInfo]];
+            }else{
+                NSLog(@"Fail open URL");
+            }
+            
+        }];
+    }else{
+        //Do nothing
+    }
     
-//    ne.event_id = [event objectForKey:@"event_id"];
-//    ne.isActive = YES;
-//    ne.cdate = [NSDate date];
-//    ne.webLink = [event objectForKey:@"url"];
-//    ne.message = [event objectForKey:@"message"];
-    [CYWebHandler openWebWithURL:[NSURL URLWithString:([(NSString *)[userInfo objectForKey:@"url"] containsString:@"http"])?[userInfo objectForKey:@"url"]:[NSString stringWithFormat:@"http://%@",[userInfo objectForKey:@"url"]]]];
-    
-    
-    
+    completionHandler(UIBackgroundFetchResultNewData);
 }
 
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
+
+    NSLog(@"I am at perform Fetch?");
+    //Tell the system that you ar done.
+    completionHandler(UIBackgroundFetchResultNewData);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -86,33 +92,10 @@
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
+    [CYNotificationHandler runLastActiveEvent];
     
-    
-    //[[UIApplication sharedApplication] cancelAllLocalNotifications];
-//    [[UNUserNotificationCenter currentNotificationCenter] getDeliveredNotificationsWithCompletionHandler:^(NSArray<UNNotification *> * _Nonnull notifications){
-//        //NSLog(@"I AM ON ROOT NOFITICATION %@",notifications.description);
-//        //NSLog(@"I am here! Count: %d",notifications.count);
-//        NSLog(@"Delivered Notification");
-//        if (notifications.count>0) {
-//            for (UNNotification *nt in notifications) {
-//               // NSLog(@"\nNotification Printed:\n%@",);
-//            }
-//        }
-//    }];
-//    [[UNUserNotificationCenter currentNotificationCenter] getPendingNotificationRequestsWithCompletionHandler:^(NSArray<UNNotificationRequest *> * _Nonnull requests){
-//        NSLog(@"Pending Notification");
-//        if (requests.count>0) {
-//            for (UNNotificationRequest * request in requests) {
-//                NSLog(@"%@",request.description);
-//            }
-//        }
-//    }];
-    
-    //  [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
-    
-    //NSLog(@"Hellow World! \n%@",application.description);
-    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+    //[CYNotificationHandler inactivateAllEvents];
 }
 
 

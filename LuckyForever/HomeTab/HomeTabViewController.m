@@ -33,6 +33,7 @@
     [self.pageView registerClass:[FSPagerViewCell class] forCellWithReuseIdentifier:@"cell"];
     self.pageView.transformer = [[FSPagerViewTransformer alloc] initWithType:FSPagerViewTransformerTypeCubic];
     self.pageView.isInfinite = YES;
+    //[self.pageView setBackgroundColor:[UIColor colorWithRed:255.0 green:152.0 blue:35.0 alpha:0.8]];
     // Do any additional setup after loading the view.
 }
 
@@ -173,6 +174,7 @@
 #pragma mark - START OF PAGER VIEW
 -(NSInteger)numberOfItemsInPagerView:(FSPagerView *)pagerView{
     return 2;
+   // return 0;
 }
 
 - (FSPagerViewCell *)pagerView:(FSPagerView *)pagerView cellForItemAtIndex:(NSInteger)index
@@ -182,7 +184,7 @@
     return cell;
 }
 -(void)pagerView:(FSPagerView *)pagerView didSelectItemAtIndex:(NSInteger)index{
-    [CYWebHandler openWebWithURL:[NSURL URLWithString:@"https://www.dhycp88.com/dhyLoginWeb/app/home"]];
+    [CYWebHandler openWebWithURL:[NSURL URLWithString:@"https://www.dhycp66.com/dhyLoginWeb/app/home"]];
 }
 
 #pragma mark - Navigation
