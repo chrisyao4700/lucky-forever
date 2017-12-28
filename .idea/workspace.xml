@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee45af9b-234b-4203-90dd-802f95f0f897" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Bitmap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Bitmap@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Bitmap@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/top_bar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/top_bar@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/top_bar@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HighlightItemCell.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HighlightItemCell.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Modules/Color/CYColor.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Modules/Color/CYColor.m" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/Contents.json" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/Contents.json" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/ad1.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/ad1.png" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/Contents.json" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/Contents.json" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/banner1.png" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1@2x.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/banner1@2x.png" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1@3x.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/banner1@3x.png" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.h" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.h" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Info.plist" afterPath="$PROJECT_DIR$/LuckyForever/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/Main.storyboard" afterPath="$PROJECT_DIR$/LuckyForever/Main.storyboard" />
+      <change beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,7 +36,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_6914579a2e951d799869fa47bb663f2ba17a53aa" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DiscoverViewController.h" pinned="false" current-in-tab="false">
@@ -60,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -109,7 +134,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -198,15 +223,15 @@
       <workItem from="1514315679749" duration="3798000" />
       <workItem from="1514411527441" duration="30000" />
       <workItem from="1514411897495" duration="447000" />
-      <workItem from="1514485357504" duration="542000" />
+      <workItem from="1514485357504" duration="833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9428000" />
+    <option name="totallyTimeSpent" value="9719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="775" extended-state="1" />
+    <frame x="40" y="23" width="1400" height="775" extended-state="0" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -519,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>

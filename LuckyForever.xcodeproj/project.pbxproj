@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		025E468F1FF2DD7D00061945 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025E468E1FF2DD7D00061945 /* WebKit.framework */; };
 		025E46931FF2DE0400061945 /* CYWebHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 025E46921FF2DE0400061945 /* CYWebHandler.m */; };
+		0270B2681FF575480042A012 /* CYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270B2671FF575480042A012 /* CYColor.m */; };
+		0270B26B1FF581D80042A012 /* HighlightItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270B26A1FF581D80042A012 /* HighlightItemCell.m */; };
 		02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD69B31FF45B3F00DA87E8 /* CYFunction.m */; };
 		02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */; };
 		02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A891FEDBAEF004BBBDD /* main.m */; };
@@ -66,6 +68,10 @@
 		025E468E1FF2DD7D00061945 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		025E46911FF2DE0400061945 /* CYWebHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYWebHandler.h; sourceTree = "<group>"; };
 		025E46921FF2DE0400061945 /* CYWebHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWebHandler.m; sourceTree = "<group>"; };
+		0270B2661FF575480042A012 /* CYColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYColor.h; sourceTree = "<group>"; };
+		0270B2671FF575480042A012 /* CYColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYColor.m; sourceTree = "<group>"; };
+		0270B2691FF581D80042A012 /* HighlightItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighlightItemCell.h; sourceTree = "<group>"; };
+		0270B26A1FF581D80042A012 /* HighlightItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighlightItemCell.m; sourceTree = "<group>"; };
 		02AD69B21FF45B3F00DA87E8 /* CYFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFunction.h; sourceTree = "<group>"; };
 		02AD69B31FF45B3F00DA87E8 /* CYFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFunction.m; sourceTree = "<group>"; };
 		02D83A741FEDBAEF004BBBDD /* LuckyForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +183,15 @@
 			path = WebHandler;
 			sourceTree = "<group>";
 		};
+		0270B2651FF575300042A012 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				0270B2661FF575480042A012 /* CYColor.h */,
+				0270B2671FF575480042A012 /* CYColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		02AD69B11FF45AB800DA87E8 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +300,8 @@
 				02D83AC91FEDBB90004BBBDD /* LotteryData.h */,
 				02D83ACA1FEDBB90004BBBDD /* LotteryData.m */,
 				02D83ACB1FEDBB90004BBBDD /* LotteryDetail */,
+				0270B2691FF581D80042A012 /* HighlightItemCell.h */,
+				0270B26A1FF581D80042A012 /* HighlightItemCell.m */,
 			);
 			path = HomeTab;
 			sourceTree = "<group>";
@@ -332,6 +349,7 @@
 		02D83AE01FEDBB91004BBBDD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				0270B2651FF575300042A012 /* Color */,
 				02AD69B11FF45AB800DA87E8 /* Functions */,
 				025E46901FF2DDE700061945 /* WebHandler */,
 				02D83AE11FEDBB91004BBBDD /* CalendarHandler */,
@@ -637,11 +655,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DRPLoadingSpinner/DRPLoadingSpinner.framework",
 				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DRPLoadingSpinner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -690,6 +710,7 @@
 				02D83AF41FEDBB91004BBBDD /* LotteryData.m in Sources */,
 				02D83AEC1FEDBB91004BBBDD /* DiscoverData.m in Sources */,
 				025E46931FF2DE0400061945 /* CYWebHandler.m in Sources */,
+				0270B26B1FF581D80042A012 /* HighlightItemCell.m in Sources */,
 				02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */,
 				02D83AEE1FEDBB91004BBBDD /* DiscoverFooterCell.m in Sources */,
 				02D83AFD1FEDBB91004BBBDD /* EventTabViewController.m in Sources */,
@@ -699,6 +720,7 @@
 				02D83AF71FEDBB91004BBBDD /* EventContentTableViewCell.m in Sources */,
 				02D83AF31FEDBB91004BBBDD /* HomeTabViewController.m in Sources */,
 				02D83AEF1FEDBB91004BBBDD /* DiscoverSubtitleCell.m in Sources */,
+				0270B2681FF575480042A012 /* CYColor.m in Sources */,
 				02D83AFA1FEDBB91004BBBDD /* EventSeperaterTableViewCell.m in Sources */,
 				02D83AF11FEDBB91004BBBDD /* DiscoverViewController.m in Sources */,
 				02D83AEB1FEDBB91004BBBDD /* DiscoverContentCell.m in Sources */,

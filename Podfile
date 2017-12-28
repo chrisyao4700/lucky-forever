@@ -9,6 +9,7 @@ target 'LuckyForever' do
 
   pod 'DRPLoadingSpinner', '~> 1.3'
   pod 'FSPagerView'
+  pod 'HMSegmentedControl'
 
   target 'LuckyForeverTests' do
     inherit! :search_paths

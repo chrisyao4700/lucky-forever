@@ -3,123 +3,146 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017A4EC1B38AB50FC4CB46643A0A77F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		03BBD899B92EFE0E171DEF7B4A7DDE8B /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8D5A97A78EC8A0552DDDB4D1370DB /* FSPagerView.swift */; };
-		075CC243674F7187A841C287CA081280 /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB48B7DB9E87DFE1D6FAA98FFEF6998 /* FSPagerView-dummy.m */; };
-		0CFC9994481F6490847B6D78563E37E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		0E087CF77F52331F4E05E468C4F15E3B /* DRPRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5AABE7C8C4E1449F088F8915D10482 /* DRPRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15D96F01ABED8E6E43CFF07BAAB89031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		017A4EC1B38AB50FC4CB46643A0A77F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		03BBD899B92EFE0E171DEF7B4A7DDE8B /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A2DCABF53895D0B4BE952E6786206 /* FSPagerView.swift */; };
+		075CC243674F7187A841C287CA081280 /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD55E6FBEE8CC8507B871305D1AE6CC8 /* FSPagerView-dummy.m */; };
+		0CFC9994481F6490847B6D78563E37E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		0E087CF77F52331F4E05E468C4F15E3B /* DRPRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B145CE3FA4F2EEE4BC51CD850B3F8E0 /* DRPRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D96F01ABED8E6E43CFF07BAAB89031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		18B035A12418DABF1F7921C26CBF7C26 /* Pods-LuckyForever-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E61EE3692F242AAC0A1A68E1C68ADB /* Pods-LuckyForever-dummy.m */; };
 		1D801D8036DDAE13D6EC48255666F79A /* Pods-LuckyForeverUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7119740E878E5930332686D57DD0F9 /* Pods-LuckyForeverUITests-dummy.m */; };
-		2F44304E58D197B62F3915130E5A7CB1 /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E49393DD16193F0551D138E79BA5EB /* DRPRefreshControl.m */; };
-		2F615991449313D6D9663E79C05CC432 /* DRPLoadingSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C83355D0DD8B8823CD2E8CEA8805DE0D /* DRPLoadingSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		357D7C84290EBD2CF71498C07886F110 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C76348EB7A71DC5E9F002C6D5DFC5D /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2325BB8ED8892303FE9BCF68448EC94C /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 26493B1D91EF02B365E56DBC7CCBDC64 /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C5ECBD884823490C4167F40B3F5AEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		2783A89B7A418C644E008383404B5CA0 /* HMSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3986076A222D9F52FD4126EFAA6A3AB /* HMSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F44304E58D197B62F3915130E5A7CB1 /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A7926A95E7BFC2FB0C18F709D2FCCCF2 /* DRPRefreshControl.m */; };
+		2F615991449313D6D9663E79C05CC432 /* DRPLoadingSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE634B0ED4B1728F59A2FD988905FA5 /* DRPLoadingSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357D7C84290EBD2CF71498C07886F110 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9F4E9E70BA6DE55DFA442D3D58B048 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E217A3835CA456B519C576DD77EB33 /* Pods-LuckyForever-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B15D7A766D9070FC901137FF871068 /* Pods-LuckyForever-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C10FF12261FE76E7634A6002C25EDBC /* Pods-LuckyForeverTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0436E9C3BEF053CD57759E9E6B0FE2 /* Pods-LuckyForeverTests-dummy.m */; };
-		3ED9980DED07D375BEABEFCC34006062 /* Pods-LuckyForever-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B15D7A766D9070FC901137FF871068 /* Pods-LuckyForever-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51BE7D573B5388FAA917E38730302FCE /* Pods-LuckyForeverTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3F357E466184095834A34E9C19472A /* Pods-LuckyForeverTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5832B6C6DF42450FCAB70E67F464E040 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE7C796EE447697ABF764B663E43B7 /* FSPagerViewLayoutAttributes.swift */; };
-		638D4086C988445EEC88BF66F3B5D3B9 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CB8C0729FBFB9B05178C0AB5117895 /* FSPageViewTransformer.swift */; };
-		63928B90443DD485ACC83A05935CB592 /* DRPRefreshControl_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 043A98E8855E3A50742C830D4239FDEC /* DRPRefreshControl_Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F16E3CF88BBD2BAE86F1B09EA55311A /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2E9DEA9DC76FE4739986D1573D34B /* FSPagerCollectionView.swift */; };
-		766C44B923C22D6143C77BAC15E2B7F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		79E391C6A3429405FB63474CF7218DE3 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F98FC842F62C3B7B8DEBBEF7A5658 /* FSPagerViewCell.swift */; };
-		80EBDD76657A804AA7045208F23721AD /* Pods-LuckyForever-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E61EE3692F242AAC0A1A68E1C68ADB /* Pods-LuckyForever-dummy.m */; };
-		838BD1D2FCD856E3E7AAD63C498E9A92 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E390DB2DC7B847E5D6A7BE01253F2 /* FSPageControl.swift */; };
-		98FB11B831964233A6D3B9266FF91911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5832B6C6DF42450FCAB70E67F464E040 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF32208C2271511AA0BCF30A3BBA7A3 /* FSPagerViewLayoutAttributes.swift */; };
+		638D4086C988445EEC88BF66F3B5D3B9 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A596E79624B7F4B49AEF8BE1C5B1C /* FSPageViewTransformer.swift */; };
+		63928B90443DD485ACC83A05935CB592 /* DRPRefreshControl_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CBFFF7EC53BD96A96AB0CAD21A35EF /* DRPRefreshControl_Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F16E3CF88BBD2BAE86F1B09EA55311A /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D121B6B203B9D5D81FC58A8830B464 /* FSPagerCollectionView.swift */; };
+		731D0A294A013C3D95DAE18BD8BBC7AC /* HMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989EFD2C07177C495C843378A12FF9F /* HMSegmentedControl-dummy.m */; };
+		766C44B923C22D6143C77BAC15E2B7F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		7677256385EF6CE6DA0728F340A8BE50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		79E391C6A3429405FB63474CF7218DE3 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A581A5F387EA8983A6EF163953961C /* FSPagerViewCell.swift */; };
+		838BD1D2FCD856E3E7AAD63C498E9A92 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2D6FD5459F87826E4F8FAB7024CDC /* FSPageControl.swift */; };
+		98FB11B831964233A6D3B9266FF91911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
 		AF82B76796DAE870B0CCCBED19FC2E5B /* Pods-LuckyForeverUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A166291C095298456982520B0BDAAF23 /* Pods-LuckyForeverUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7A8CA49F071B3C79FB451599DC278C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		D38A57A9348B7B6C2B69640D577DCD86 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = DC57079E0AB808E785FA55699A0D05ED /* DRPLoadingSpinner.m */; };
-		D558C1ECBA812F8DC2B801E8046E2492 /* DRPLoadingSpinnerTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B66C1D2E2B8BF50F26DDB70D9B5FB52 /* DRPLoadingSpinnerTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2153D315EB6AAF2AFA579FE7E490E84 /* DRPLoadingSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6175869E926A6FD48BE021CD5FA0411A /* DRPLoadingSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD6C26979D39DE474058DFF011B6FFC0 /* DRPLoadingSpinnerTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 40069BAACF479E8A70623DCE1960B101 /* DRPLoadingSpinnerTimingFunction.m */; };
-		FDB835F9C56ADD1DAE171DE4FFE60C27 /* DRPLoadingSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C903CA78627BB8D9CD089B313F0519F4 /* DRPLoadingSpinner-dummy.m */; };
-		FED3B2A51B9910D524980ACD078DE5AC /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBBF46F7F980A5F6D28A25FF9967DB /* FSPageViewLayout.swift */; };
+		B7CB384BF88B421713036A70A9BCAEDD /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8921EFDCDCF226319F7BFA7A4B109 /* HMSegmentedControl.m */; };
+		C24087E4801E47069A9B02BAF803B2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		D38A57A9348B7B6C2B69640D577DCD86 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD6D83B3298431276BBA3D8BA3BFE31 /* DRPLoadingSpinner.m */; };
+		D558C1ECBA812F8DC2B801E8046E2492 /* DRPLoadingSpinnerTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6DFE7CDF510B0864030EF074B3469 /* DRPLoadingSpinnerTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2153D315EB6AAF2AFA579FE7E490E84 /* DRPLoadingSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD8BA3BD6DE2FA4021822F0D6F89750 /* DRPLoadingSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6C26979D39DE474058DFF011B6FFC0 /* DRPLoadingSpinnerTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A595EC4881876577E78140D2CC5DE181 /* DRPLoadingSpinnerTimingFunction.m */; };
+		FDB835F9C56ADD1DAE171DE4FFE60C27 /* DRPLoadingSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7154992BC65B448B2498E46CFF2BB6F2 /* DRPLoadingSpinner-dummy.m */; };
+		FED3B2A51B9910D524980ACD078DE5AC /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0549C8B64D79BF61D3B7436E1339E7 /* FSPageViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		043CBDBDE326EA7F3CD68ED7719C3A06 /* PBXContainerItemProxy */ = {
+		1DAF3828FB2E9E0D97F9BC8153068F8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B4B5C17B2F13C31C40216490E08C824;
-			remoteInfo = DRPLoadingSpinner;
+			remoteGlobalIDString = 7891E2B724C54EF58FB1692B34F1455C;
+			remoteInfo = HMSegmentedControl;
 		};
-		4E40F4C31EFDD4315DED75C905FD3829 /* PBXContainerItemProxy */ = {
+		2004FB9CD68C7A5133A77478E1AA5BCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED279AFE7EA745A57B7B9F35AD5F2C9F;
 			remoteInfo = FSPagerView;
 		};
+		8D3E79069EE3F1BF4F24727A737BF2CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4B5C17B2F13C31C40216490E08C824;
+			remoteInfo = DRPLoadingSpinner;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043A98E8855E3A50742C830D4239FDEC /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl_Protected.h; path = src/core/DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
-		0C2F98FC842F62C3B7B8DEBBEF7A5658 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		0AA8921EFDCDCF226319F7BFA7A4B109 /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = HMSegmentedControl/HMSegmentedControl.m; sourceTree = "<group>"; };
 		0D9CC57DCB27723082C651258BB8C94D /* Pods-LuckyForeverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverTests.release.xcconfig"; sourceTree = "<group>"; };
 		10B692FE1CF80151628C4E1786F99D39 /* Pods-LuckyForever-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForever-acknowledgements.plist"; sourceTree = "<group>"; };
-		16E574117F5DC82314E898D1AB310A44 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186224DA3D341E5DCB143E859BBA9148 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		1FE634B0ED4B1728F59A2FD988905FA5 /* DRPLoadingSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-umbrella.h"; sourceTree = "<group>"; };
 		2441766856B83E81A5A39C129C3AE337 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B768507DEA3DA21A4D3A1510C051031 /* DRPLoadingSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRPLoadingSpinner.xcconfig; sourceTree = "<group>"; };
+		24AD7D724A6FC396E01BBD3344172D98 /* DRPLoadingSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DRPLoadingSpinner.modulemap; sourceTree = "<group>"; };
+		26493B1D91EF02B365E56DBC7CCBDC64 /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = HMSegmentedControl/HMSegmentedControl.h; sourceTree = "<group>"; };
 		2B7AC8A679B1DE1BCE230957347866A3 /* Pods-LuckyForever-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForever-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C3F357E466184095834A34E9C19472A /* Pods-LuckyForeverTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyForeverTests-umbrella.h"; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33160B04D269E227BAC1F0C26D01DDA3 /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
+		3390386913EFF23F0ADECEB8B957D498 /* Pods_LuckyForeverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckyForeverTests.framework; path = "Pods-LuckyForeverTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3587D1721B10CC81E3E9DBAB2D53F035 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		365B682655A5C860DE22C2DF7E524A81 /* Pods-LuckyForeverTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForeverTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		37F1C6C53753E402D7CEA659563F2F1A /* Pods-LuckyForeverUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForeverUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		38DF34BCCF81E7D3B7EABC66FF9EB46A /* Pods-LuckyForeverTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverTests-resources.sh"; sourceTree = "<group>"; };
-		39E49393DD16193F0551D138E79BA5EB /* DRPRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = src/core/DRPRefreshControl.m; sourceTree = "<group>"; };
-		3DB48B7DB9E87DFE1D6FAA98FFEF6998 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
-		40069BAACF479E8A70623DCE1960B101 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinnerTimingFunction.m; path = src/core/DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
-		40CB8C0729FBFB9B05178C0AB5117895 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3989EFD2C07177C495C843378A12FF9F /* HMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		3C270CAB67DF94347ABED457E181B6D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4494C3D5B1CEDA02CA51C8D567D03BEB /* Pods-LuckyForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForever.release.xcconfig"; sourceTree = "<group>"; };
-		49C76348EB7A71DC5E9F002C6D5DFC5D /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
+		46D121B6B203B9D5D81FC58A8830B464 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		4CD91910FAC205B8227F04A13A16ABD7 /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRPLoadingSpinner.framework; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4DF6845EEEFBDE885B24BF7162DA07 /* Pods-LuckyForeverUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverUITests-resources.sh"; sourceTree = "<group>"; };
 		4FFBAD48EA60AE99F04411C4A0082201 /* Pods-LuckyForever-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForever-resources.sh"; sourceTree = "<group>"; };
-		5C5E390DB2DC7B847E5D6A7BE01253F2 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
-		6175869E926A6FD48BE021CD5FA0411A /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = src/core/DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		57F2826A981DD26029C7E5A2F13BC0E0 /* Pods_LuckyForeverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckyForeverUITests.framework; path = "Pods-LuckyForeverUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5937FB76D5E2D1FB33580A50C8E4A35B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9A2DCABF53895D0B4BE952E6786206 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
 		61B15D7A766D9070FC901137FF871068 /* Pods-LuckyForever-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyForever-umbrella.h"; sourceTree = "<group>"; };
 		648AC6CA06E73EB00C96E620CAEE3213 /* Pods-LuckyForeverUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForeverUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66B2E68C24BAD433274486D0C14E3976 /* Pods-LuckyForeverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverTests.debug.xcconfig"; sourceTree = "<group>"; };
 		66E61EE3692F242AAC0A1A68E1C68ADB /* Pods-LuckyForever-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForever-dummy.m"; sourceTree = "<group>"; };
-		6B56CDAE61948E3D890A997230351BB3 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
-		76A2E1DEB9F35A6FC67536B2E4613F02 /* Pods-LuckyForeverUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LuckyForeverUITests.modulemap"; sourceTree = "<group>"; };
+		67DA60B110E201CD86EB41396CBFA05F /* DRPLoadingSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRPLoadingSpinner.xcconfig; sourceTree = "<group>"; };
+		6B6FAF2DD5E7C2BD1C695376E2AC6222 /* HMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		6D04E7CDF186197F06E401399D2C6D32 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7154992BC65B448B2498E46CFF2BB6F2 /* DRPLoadingSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRPLoadingSpinner-dummy.m"; sourceTree = "<group>"; };
+		76A2E1DEB9F35A6FC67536B2E4613F02 /* Pods-LuckyForeverUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LuckyForeverUITests.modulemap"; sourceTree = "<group>"; };
+		781A596E79624B7F4B49AEF8BE1C5B1C /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
 		79DE0CA1E56AC61B3112AEFF597E6247 /* Pods-LuckyForeverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B66C1D2E2B8BF50F26DDB70D9B5FB52 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinnerTimingFunction.h; path = src/core/DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
 		7C5A9328AE81678DC70E870606EFA8E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E5AABE7C8C4E1449F088F8915D10482 /* DRPRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = src/core/DRPRefreshControl.h; sourceTree = "<group>"; };
-		7F73E3E96A09DE1638F9E64A1D0221F7 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FSPagerView.modulemap; sourceTree = "<group>"; };
-		7FBE7C796EE447697ABF764B663E43B7 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
-		92AA87C296094CD9EE4CDAE1CBA2A956 /* Pods_LuckyForeverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyForeverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94D90319B8835AE1764F176EE6AB441F /* Pods-LuckyForever.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LuckyForever.modulemap"; sourceTree = "<group>"; };
+		7E177899C57E6923484D2776A2591E9E /* DRPLoadingSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-prefix.pch"; sourceTree = "<group>"; };
+		8B145CE3FA4F2EEE4BC51CD850B3F8E0 /* DRPRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = src/core/DRPRefreshControl.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94CBFFF7EC53BD96A96AB0CAD21A35EF /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl_Protected.h; path = src/core/DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
+		94D90319B8835AE1764F176EE6AB441F /* Pods-LuckyForever.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LuckyForever.modulemap"; sourceTree = "<group>"; };
+		9B3AF022F1C32CBA7CAACEADE44728BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF32208C2271511AA0BCF30A3BBA7A3 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
 		A166291C095298456982520B0BDAAF23 /* Pods-LuckyForeverUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyForeverUITests-umbrella.h"; sourceTree = "<group>"; };
-		A6B9324461356E5E85A5C4800A590CC6 /* DRPLoadingSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-prefix.pch"; sourceTree = "<group>"; };
-		A6E2E9DEA9DC76FE4739986D1573D34B /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
-		A9EC6FF10CE773C3E218D32553AE9C26 /* Pods_LuckyForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyForever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA4ED1C5080F3E2134C0C31B8C52D9D /* Pods_LuckyForeverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyForeverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A595EC4881876577E78140D2CC5DE181 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinnerTimingFunction.m; path = src/core/DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
+		A7926A95E7BFC2FB0C18F709D2FCCCF2 /* DRPRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = src/core/DRPRefreshControl.m; sourceTree = "<group>"; };
+		A7F6DFE7CDF510B0864030EF074B3469 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinnerTimingFunction.h; path = src/core/DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
+		A9F2D6FD5459F87826E4F8FAB7024CDC /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
+		AD0549C8B64D79BF61D3B7436E1339E7 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
+		AD55E6FBEE8CC8507B871305D1AE6CC8 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
 		AE5D2A46C058E890F9803337F99B4439 /* Pods-LuckyForever-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForever-frameworks.sh"; sourceTree = "<group>"; };
+		AFD6D83B3298431276BBA3D8BA3BFE31 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinner.m; path = src/core/DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		B3986076A222D9F52FD4126EFAA6A3AB /* HMSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
 		B412F9FB54DD18F77EA6B5A98DAC5830 /* Pods-LuckyForeverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9F29B52223CB190C6831F360D02A2CD /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCECECA9398E43B11E27660118D27AD3 /* Pods-LuckyForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForever.debug.xcconfig"; sourceTree = "<group>"; };
-		BF7213FE51531774E37076B10ECFD852 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C83355D0DD8B8823CD2E8CEA8805DE0D /* DRPLoadingSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-umbrella.h"; sourceTree = "<group>"; };
-		C903CA78627BB8D9CD089B313F0519F4 /* DRPLoadingSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRPLoadingSpinner-dummy.m"; sourceTree = "<group>"; };
+		C2317E6B0C2B3C9768F1A858B1761696 /* HMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMSegmentedControl.framework; path = HMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67409B71592AE303D5F4DEA626C7F14 /* HMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HMSegmentedControl.modulemap; sourceTree = "<group>"; };
+		C68A3FC0E2BDD2A6F0AB235D8B6EBD9C /* HMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		CA9F4E9E70BA6DE55DFA442D3D58B048 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
+		CAD8BA3BD6DE2FA4021822F0D6F89750 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = src/core/DRPLoadingSpinner.h; sourceTree = "<group>"; };
 		CCFDD9994B456361587A41270B716AC5 /* Pods-LuckyForeverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForeverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CFD681A4C6C478E385576C831671627A /* Pods-LuckyForeverTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LuckyForeverTests.modulemap"; sourceTree = "<group>"; };
-		D3EBBF46F7F980A5F6D28A25FF9967DB /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
+		CE1763077928BFACF6B3A936E2B60B08 /* Pods_LuckyForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckyForever.framework; path = "Pods-LuckyForever.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD681A4C6C478E385576C831671627A /* Pods-LuckyForeverTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LuckyForeverTests.modulemap"; sourceTree = "<group>"; };
 		D3FDA15C3629D0608D93A24A97238BCF /* Pods-LuckyForeverTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverTests-frameworks.sh"; sourceTree = "<group>"; };
-		D7F8D5A97A78EC8A0552DDDB4D1370DB /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DC57079E0AB808E785FA55699A0D05ED /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinner.m; path = src/core/DRPLoadingSpinner.m; sourceTree = "<group>"; };
 		DF7119740E878E5930332686D57DD0F9 /* Pods-LuckyForeverUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForeverUITests-dummy.m"; sourceTree = "<group>"; };
-		E105FA6A316EFC419467E413B6FD740F /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
-		E4003060121F75530A183121C35B93A4 /* DRPLoadingSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DRPLoadingSpinner.modulemap; sourceTree = "<group>"; };
+		E5E8ACF10970158E730B857AA125F411 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
 		E849B4F171816C51A99FFCFA83ECE087 /* Pods-LuckyForeverUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverUITests-frameworks.sh"; sourceTree = "<group>"; };
-		EC30FA01A94C1F540DACE788B0994AC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A581A5F387EA8983A6EF163953961C /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		FC0436E9C3BEF053CD57759E9E6B0FE2 /* Pods-LuckyForeverTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForeverTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,20 +155,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		500ED8325E16DCA287B62289E88CAC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24087E4801E47069A9B02BAF803B2F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E070AB187E415CF4D7EB6E528000CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				017A4EC1B38AB50FC4CB46643A0A77F9 /* Foundation.framework in Frameworks */,
 				766C44B923C22D6143C77BAC15E2B7F7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8672AC075BE44F7BDB059872E617D9C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7A8CA49F071B3C79FB451599DC278C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,73 +188,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2B834EA7E1D35E47CB49A8EA5911A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7677256385EF6CE6DA0728F340A8BE50 /* Foundation.framework in Frameworks */,
+				24C5ECBD884823490C4167F40B3F5AEB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01067F9D34F430A1D2E48B4ECA273C20 /* Pods */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C2B03BEF8A70B4A9CE31709B1ED7CF6 /* DRPLoadingSpinner */,
-				6B17B0F329EF580CCDF37356986B0394 /* FSPagerView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2A44540F3501FB5824C4914958A1A818 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B9F29B52223CB190C6831F360D02A2CD /* DRPLoadingSpinner.framework */,
-				16E574117F5DC82314E898D1AB310A44 /* FSPagerView.framework */,
-				A9EC6FF10CE773C3E218D32553AE9C26 /* Pods_LuckyForever.framework */,
-				92AA87C296094CD9EE4CDAE1CBA2A956 /* Pods_LuckyForeverTests.framework */,
-				ADA4ED1C5080F3E2134C0C31B8C52D9D /* Pods_LuckyForeverUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		34D53A7ABB178C6D37E0EF4D23966B4B /* core */ = {
-			isa = PBXGroup;
-			children = (
-				6175869E926A6FD48BE021CD5FA0411A /* DRPLoadingSpinner.h */,
-				DC57079E0AB808E785FA55699A0D05ED /* DRPLoadingSpinner.m */,
-				7B66C1D2E2B8BF50F26DDB70D9B5FB52 /* DRPLoadingSpinnerTimingFunction.h */,
-				40069BAACF479E8A70623DCE1960B101 /* DRPLoadingSpinnerTimingFunction.m */,
-				7E5AABE7C8C4E1449F088F8915D10482 /* DRPRefreshControl.h */,
-				39E49393DD16193F0551D138E79BA5EB /* DRPRefreshControl.m */,
-				043A98E8855E3A50742C830D4239FDEC /* DRPRefreshControl_Protected.h */,
-			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		46F2F295BA8C02B7366EC18902191C95 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		552C065C6AD1E39B8628B64CD29B95A6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F73E3E96A09DE1638F9E64A1D0221F7 /* FSPagerView.modulemap */,
-				E105FA6A316EFC419467E413B6FD740F /* FSPagerView.xcconfig */,
-				3DB48B7DB9E87DFE1D6FAA98FFEF6998 /* FSPagerView-dummy.m */,
-				6B56CDAE61948E3D890A997230351BB3 /* FSPagerView-prefix.pch */,
-				49C76348EB7A71DC5E9F002C6D5DFC5D /* FSPagerView-umbrella.h */,
-				EC30FA01A94C1F540DACE788B0994AC5 /* Info.plist */,
+				24AD7D724A6FC396E01BBD3344172D98 /* DRPLoadingSpinner.modulemap */,
+				67DA60B110E201CD86EB41396CBFA05F /* DRPLoadingSpinner.xcconfig */,
+				7154992BC65B448B2498E46CFF2BB6F2 /* DRPLoadingSpinner-dummy.m */,
+				7E177899C57E6923484D2776A2591E9E /* DRPLoadingSpinner-prefix.pch */,
+				1FE634B0ED4B1728F59A2FD988905FA5 /* DRPLoadingSpinner-umbrella.h */,
+				9B3AF022F1C32CBA7CAACEADE44728BD /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FSPagerView";
+			path = "../Target Support Files/DRPLoadingSpinner";
+			sourceTree = "<group>";
+		};
+		4A1DD4D1FE80FC76D154D467C93C08FD /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				829E5D1A7AAAA1575D557E3C33BFC06E /* core */,
+				46F2F295BA8C02B7366EC18902191C95 /* Support Files */,
+			);
+			name = DRPLoadingSpinner;
+			path = DRPLoadingSpinner;
 			sourceTree = "<group>";
 		};
 		598C646B91C8E5A2BF86147340870D34 /* Pods-LuckyForever */ = {
@@ -270,6 +268,16 @@
 			path = "Target Support Files/Pods-LuckyForeverTests";
 			sourceTree = "<group>";
 		};
+		5D93FFE3ACA2AC1BFA0302C4A957E11B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DD4D1FE80FC76D154D467C93C08FD /* DRPLoadingSpinner */,
+				991475494F4D509CF638A015F9F47F97 /* FSPagerView */,
+				6C40F4C42433EEF0228EAE52C3E765CD /* HMSegmentedControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		69790894FAAC779D11CB5C99B0A2AFE0 /* Pods-LuckyForeverUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,39 +296,80 @@
 			path = "Target Support Files/Pods-LuckyForeverUITests";
 			sourceTree = "<group>";
 		};
-		6B17B0F329EF580CCDF37356986B0394 /* FSPagerView */ = {
+		6C40F4C42433EEF0228EAE52C3E765CD /* HMSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				5C5E390DB2DC7B847E5D6A7BE01253F2 /* FSPageControl.swift */,
-				A6E2E9DEA9DC76FE4739986D1573D34B /* FSPagerCollectionView.swift */,
-				D7F8D5A97A78EC8A0552DDDB4D1370DB /* FSPagerView.swift */,
-				0C2F98FC842F62C3B7B8DEBBEF7A5658 /* FSPagerViewCell.swift */,
-				7FBE7C796EE447697ABF764B663E43B7 /* FSPagerViewLayoutAttributes.swift */,
-				D3EBBF46F7F980A5F6D28A25FF9967DB /* FSPageViewLayout.swift */,
-				40CB8C0729FBFB9B05178C0AB5117895 /* FSPageViewTransformer.swift */,
-				552C065C6AD1E39B8628B64CD29B95A6 /* Support Files */,
+				26493B1D91EF02B365E56DBC7CCBDC64 /* HMSegmentedControl.h */,
+				0AA8921EFDCDCF226319F7BFA7A4B109 /* HMSegmentedControl.m */,
+				92EF67978BFCCAD4B8B0668A0BDD9E8B /* Support Files */,
 			);
-			path = FSPagerView;
+			name = HMSegmentedControl;
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				01067F9D34F430A1D2E48B4ECA273C20 /* Pods */,
-				2A44540F3501FB5824C4914958A1A818 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5D93FFE3ACA2AC1BFA0302C4A957E11B /* Pods */,
+				DC1357F03E1FD0A6CD892EC911EFB0A3 /* Products */,
 				9D525C563300E83A75F01175DC3A78E7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9C2B03BEF8A70B4A9CE31709B1ED7CF6 /* DRPLoadingSpinner */ = {
+		829E5D1A7AAAA1575D557E3C33BFC06E /* core */ = {
 			isa = PBXGroup;
 			children = (
-				34D53A7ABB178C6D37E0EF4D23966B4B /* core */,
-				C32F76ED64FF588E30D1934314AB921B /* Support Files */,
+				CAD8BA3BD6DE2FA4021822F0D6F89750 /* DRPLoadingSpinner.h */,
+				AFD6D83B3298431276BBA3D8BA3BFE31 /* DRPLoadingSpinner.m */,
+				A7F6DFE7CDF510B0864030EF074B3469 /* DRPLoadingSpinnerTimingFunction.h */,
+				A595EC4881876577E78140D2CC5DE181 /* DRPLoadingSpinnerTimingFunction.m */,
+				8B145CE3FA4F2EEE4BC51CD850B3F8E0 /* DRPRefreshControl.h */,
+				A7926A95E7BFC2FB0C18F709D2FCCCF2 /* DRPRefreshControl.m */,
+				94CBFFF7EC53BD96A96AB0CAD21A35EF /* DRPRefreshControl_Protected.h */,
 			);
-			path = DRPLoadingSpinner;
+			name = core;
+			sourceTree = "<group>";
+		};
+		92EF67978BFCCAD4B8B0668A0BDD9E8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67409B71592AE303D5F4DEA626C7F14 /* HMSegmentedControl.modulemap */,
+				6B6FAF2DD5E7C2BD1C695376E2AC6222 /* HMSegmentedControl.xcconfig */,
+				3989EFD2C07177C495C843378A12FF9F /* HMSegmentedControl-dummy.m */,
+				C68A3FC0E2BDD2A6F0AB235D8B6EBD9C /* HMSegmentedControl-prefix.pch */,
+				B3986076A222D9F52FD4126EFAA6A3AB /* HMSegmentedControl-umbrella.h */,
+				5937FB76D5E2D1FB33580A50C8E4A35B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HMSegmentedControl";
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		991475494F4D509CF638A015F9F47F97 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2D6FD5459F87826E4F8FAB7024CDC /* FSPageControl.swift */,
+				46D121B6B203B9D5D81FC58A8830B464 /* FSPagerCollectionView.swift */,
+				5C9A2DCABF53895D0B4BE952E6786206 /* FSPagerView.swift */,
+				F0A581A5F387EA8983A6EF163953961C /* FSPagerViewCell.swift */,
+				9EF32208C2271511AA0BCF30A3BBA7A3 /* FSPagerViewLayoutAttributes.swift */,
+				AD0549C8B64D79BF61D3B7436E1339E7 /* FSPageViewLayout.swift */,
+				781A596E79624B7F4B49AEF8BE1C5B1C /* FSPageViewTransformer.swift */,
+				D4A88BF0FE776375329111B5712F2139 /* Support Files */,
+			);
+			name = FSPagerView;
+			path = FSPagerView;
 			sourceTree = "<group>";
 		};
 		9D525C563300E83A75F01175DC3A78E7 /* Targets Support Files */ = {
@@ -333,18 +382,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C32F76ED64FF588E30D1934314AB921B /* Support Files */ = {
+		D4A88BF0FE776375329111B5712F2139 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4003060121F75530A183121C35B93A4 /* DRPLoadingSpinner.modulemap */,
-				2B768507DEA3DA21A4D3A1510C051031 /* DRPLoadingSpinner.xcconfig */,
-				C903CA78627BB8D9CD089B313F0519F4 /* DRPLoadingSpinner-dummy.m */,
-				A6B9324461356E5E85A5C4800A590CC6 /* DRPLoadingSpinner-prefix.pch */,
-				C83355D0DD8B8823CD2E8CEA8805DE0D /* DRPLoadingSpinner-umbrella.h */,
-				BF7213FE51531774E37076B10ECFD852 /* Info.plist */,
+				186224DA3D341E5DCB143E859BBA9148 /* FSPagerView.modulemap */,
+				33160B04D269E227BAC1F0C26D01DDA3 /* FSPagerView.xcconfig */,
+				AD55E6FBEE8CC8507B871305D1AE6CC8 /* FSPagerView-dummy.m */,
+				E5E8ACF10970158E730B857AA125F411 /* FSPagerView-prefix.pch */,
+				CA9F4E9E70BA6DE55DFA442D3D58B048 /* FSPagerView-umbrella.h */,
+				3C270CAB67DF94347ABED457E181B6D0 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DRPLoadingSpinner";
+			path = "../Target Support Files/FSPagerView";
+			sourceTree = "<group>";
+		};
+		DC1357F03E1FD0A6CD892EC911EFB0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD91910FAC205B8227F04A13A16ABD7 /* DRPLoadingSpinner.framework */,
+				6D04E7CDF186197F06E401399D2C6D32 /* FSPagerView.framework */,
+				C2317E6B0C2B3C9768F1A858B1761696 /* HMSegmentedControl.framework */,
+				CE1763077928BFACF6B3A936E2B60B08 /* Pods_LuckyForever.framework */,
+				3390386913EFF23F0ADECEB8B957D498 /* Pods_LuckyForeverTests.framework */,
+				57F2826A981DD26029C7E5A2F13BC0E0 /* Pods_LuckyForeverUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +432,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D4E54874AA429EE053EC752BB9937D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2783A89B7A418C644E008383404B5CA0 /* HMSegmentedControl-umbrella.h in Headers */,
+				2325BB8ED8892303FE9BCF68448EC94C /* HMSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66931086FFBD81A0CF447B89D73FF515 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,17 +457,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		936C1E0DA4E2A320634DC9845660F1CA /* Headers */ = {
+		F50BEE2BAD69F8E1F5CE69DC3CE76FAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED9980DED07D375BEABEFCC34006062 /* Pods-LuckyForever-umbrella.h in Headers */,
+				39E217A3835CA456B519C576DD77EB33 /* Pods-LuckyForever-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		05A7ED5283A786C5710056C2F598B056 /* Pods-LuckyForever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF90D4594438A0D232666AEB4974830D /* Build configuration list for PBXNativeTarget "Pods-LuckyForever" */;
+			buildPhases = (
+				00757FD96A3342ABF5D3D244FA2A36C1 /* Sources */,
+				500ED8325E16DCA287B62289E88CAC3D /* Frameworks */,
+				F50BEE2BAD69F8E1F5CE69DC3CE76FAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396BBD8614539AE3E9CF1E1598FCB43D /* PBXTargetDependency */,
+				C680F5CAD1D18F8D850A33C60D374B45 /* PBXTargetDependency */,
+				3BCBC08872A5DC212403AA37687F43F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckyForever";
+			productName = "Pods-LuckyForever";
+			productReference = CE1763077928BFACF6B3A936E2B60B08 /* Pods_LuckyForever.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0B4B5C17B2F13C31C40216490E08C824 /* DRPLoadingSpinner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B94028B4585E7D51BBE79DD2F554A6F9 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */;
@@ -411,7 +502,7 @@
 			);
 			name = DRPLoadingSpinner;
 			productName = DRPLoadingSpinner;
-			productReference = B9F29B52223CB190C6831F360D02A2CD /* DRPLoadingSpinner.framework */;
+			productReference = 4CD91910FAC205B8227F04A13A16ABD7 /* DRPLoadingSpinner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		556B24CF350EE5ADA902D1EB2B8C57F1 /* Pods-LuckyForeverTests */ = {
@@ -428,26 +519,7 @@
 			);
 			name = "Pods-LuckyForeverTests";
 			productName = "Pods-LuckyForeverTests";
-			productReference = 92AA87C296094CD9EE4CDAE1CBA2A956 /* Pods_LuckyForeverTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		56A8835A61BE944E192B4A2806E9E397 /* Pods-LuckyForever */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9BDE2955896CA174CB481F7DFBE956F /* Build configuration list for PBXNativeTarget "Pods-LuckyForever" */;
-			buildPhases = (
-				C1CA6C2C607CD98C05AFFB18AA1D57ED /* Sources */,
-				8672AC075BE44F7BDB059872E617D9C7 /* Frameworks */,
-				936C1E0DA4E2A320634DC9845660F1CA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF9190895FE17A56119ACC82ABB48CA1 /* PBXTargetDependency */,
-				93C9705BB7E0E5D6B4C7028C96FDB841 /* PBXTargetDependency */,
-			);
-			name = "Pods-LuckyForever";
-			productName = "Pods-LuckyForever";
-			productReference = A9EC6FF10CE773C3E218D32553AE9C26 /* Pods_LuckyForever.framework */;
+			productReference = 3390386913EFF23F0ADECEB8B957D498 /* Pods_LuckyForeverTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		63D52EC740ED6E1CA7FAFA6D48B60829 /* Pods-LuckyForeverUITests */ = {
@@ -464,7 +536,24 @@
 			);
 			name = "Pods-LuckyForeverUITests";
 			productName = "Pods-LuckyForeverUITests";
-			productReference = ADA4ED1C5080F3E2134C0C31B8C52D9D /* Pods_LuckyForeverUITests.framework */;
+			productReference = 57F2826A981DD26029C7E5A2F13BC0E0 /* Pods_LuckyForeverUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7891E2B724C54EF58FB1692B34F1455C /* HMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8668A63F70CDBE548BD2FE7AB28FD686 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */;
+			buildPhases = (
+				8348D47C5324F7D73F7D3938E0D6B724 /* Sources */,
+				E2B834EA7E1D35E47CB49A8EA5911A8F /* Frameworks */,
+				4D4E54874AA429EE053EC752BB9937D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMSegmentedControl;
+			productName = HMSegmentedControl;
+			productReference = C2317E6B0C2B3C9768F1A858B1761696 /* HMSegmentedControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */ = {
@@ -481,7 +570,7 @@
 			);
 			name = FSPagerView;
 			productName = FSPagerView;
-			productReference = 16E574117F5DC82314E898D1AB310A44 /* FSPagerView.framework */;
+			productReference = 6D04E7CDF186197F06E401399D2C6D32 /* FSPagerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -501,13 +590,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2A44540F3501FB5824C4914958A1A818 /* Products */;
+			productRefGroup = DC1357F03E1FD0A6CD892EC911EFB0A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0B4B5C17B2F13C31C40216490E08C824 /* DRPLoadingSpinner */,
 				ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */,
-				56A8835A61BE944E192B4A2806E9E397 /* Pods-LuckyForever */,
+				7891E2B724C54EF58FB1692B34F1455C /* HMSegmentedControl */,
+				05A7ED5283A786C5710056C2F598B056 /* Pods-LuckyForever */,
 				556B24CF350EE5ADA902D1EB2B8C57F1 /* Pods-LuckyForeverTests */,
 				63D52EC740ED6E1CA7FAFA6D48B60829 /* Pods-LuckyForeverUITests */,
 			);
@@ -515,6 +605,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00757FD96A3342ABF5D3D244FA2A36C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B035A12418DABF1F7921C26CBF7C26 /* Pods-LuckyForever-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		354308313E54A6287A9097E10BCF822C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +629,15 @@
 				D38A57A9348B7B6C2B69640D577DCD86 /* DRPLoadingSpinner.m in Sources */,
 				FD6C26979D39DE474058DFF011B6FFC0 /* DRPLoadingSpinnerTimingFunction.m in Sources */,
 				2F44304E58D197B62F3915130E5A7CB1 /* DRPRefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8348D47C5324F7D73F7D3938E0D6B724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D0A294A013C3D95DAE18BD8BBC7AC /* HMSegmentedControl-dummy.m in Sources */,
+				B7CB384BF88B421713036A70A9BCAEDD /* HMSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,65 +664,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1CA6C2C607CD98C05AFFB18AA1D57ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80EBDD76657A804AA7045208F23721AD /* Pods-LuckyForever-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93C9705BB7E0E5D6B4C7028C96FDB841 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSPagerView;
-			target = ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */;
-			targetProxy = 4E40F4C31EFDD4315DED75C905FD3829 /* PBXContainerItemProxy */;
-		};
-		CF9190895FE17A56119ACC82ABB48CA1 /* PBXTargetDependency */ = {
+		396BBD8614539AE3E9CF1E1598FCB43D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DRPLoadingSpinner;
 			target = 0B4B5C17B2F13C31C40216490E08C824 /* DRPLoadingSpinner */;
-			targetProxy = 043CBDBDE326EA7F3CD68ED7719C3A06 /* PBXContainerItemProxy */;
+			targetProxy = 8D3E79069EE3F1BF4F24727A737BF2CB /* PBXContainerItemProxy */;
+		};
+		3BCBC08872A5DC212403AA37687F43F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMSegmentedControl;
+			target = 7891E2B724C54EF58FB1692B34F1455C /* HMSegmentedControl */;
+			targetProxy = 1DAF3828FB2E9E0D97F9BC8153068F8A /* PBXContainerItemProxy */;
+		};
+		C680F5CAD1D18F8D850A33C60D374B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = ED279AFE7EA745A57B7B9F35AD5F2C9F /* FSPagerView */;
+			targetProxy = 2004FB9CD68C7A5133A77478E1AA5BCF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B11D27447103CD24A2DA39CC36B220F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79DE0CA1E56AC61B3112AEFF597E6247 /* Pods-LuckyForeverUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LuckyForeverUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -661,51 +734,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		239A159777CCB314668B8634FD3C3774 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66B2E68C24BAD433274486D0C14E3976 /* Pods-LuckyForeverTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LuckyForeverTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2741333FDCD890034A0CA8CA6DF21087 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B768507DEA3DA21A4D3A1510C051031 /* DRPLoadingSpinner.xcconfig */;
+			baseConfigurationReference = 67DA60B110E201CD86EB41396CBFA05F /* DRPLoadingSpinner.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -733,7 +773,7 @@
 			};
 			name = Release;
 		};
-		658DA76450A2E505A643F3D8905C41B4 /* Release */ = {
+		2D6C358040E284EC25194CC1B3E194EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4494C3D5B1CEDA02CA51C8D567D03BEB /* Pods-LuckyForever.release.xcconfig */;
 			buildSettings = {
@@ -748,7 +788,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForever/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForever/Pods-LuckyForever.modulemap";
@@ -767,9 +807,9 @@
 			};
 			name = Release;
 		};
-		960CFE05C50A6B8D761575D07399041D /* Release */ = {
+		3A0655CFFF0DA36B6D3FCBF076F6050E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D9CC57DCB27723082C651258BB8C94D /* Pods-LuckyForeverTests.release.xcconfig */;
+			baseConfigurationReference = BCECECA9398E43B11E27660118D27AD3 /* Pods-LuckyForever.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -780,27 +820,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForever/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForever/Pods-LuckyForever.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LuckyForeverTests;
+				PRODUCT_NAME = Pods_LuckyForever;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -849,21 +890,144 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		66AE6808D00D28F91F921ABF8B0F2882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B2E68C24BAD433274486D0C14E3976 /* Pods-LuckyForeverTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LuckyForeverTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E4C85F06F1A71ED9BAB8CB1B454BD5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6FAF2DD5E7C2BD1C695376E2AC6222 /* HMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMSegmentedControl/HMSegmentedControl.modulemap";
+				PRODUCT_NAME = HMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		900F05F7A2435CF9FED9413E73906E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6FAF2DD5E7C2BD1C695376E2AC6222 /* HMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMSegmentedControl/HMSegmentedControl.modulemap";
+				PRODUCT_NAME = HMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		979F0B69835CA17D283F05D38AE9AA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B412F9FB54DD18F77EA6B5A98DAC5830 /* Pods-LuckyForeverUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LuckyForeverUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A31D1F43674D56ECB969F8D8379EF705 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B768507DEA3DA21A4D3A1510C051031 /* DRPLoadingSpinner.xcconfig */;
+			baseConfigurationReference = 67DA60B110E201CD86EB41396CBFA05F /* DRPLoadingSpinner.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -890,9 +1054,9 @@
 			};
 			name = Debug;
 		};
-		B5BAE44668C849881B0059A0361B2764 /* Release */ = {
+		BE44FE4A4D96471AD1BF1318636B2951 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B412F9FB54DD18F77EA6B5A98DAC5830 /* Pods-LuckyForeverUITests.release.xcconfig */;
+			baseConfigurationReference = 79DE0CA1E56AC61B3112AEFF597E6247 /* Pods-LuckyForeverUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -905,7 +1069,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.modulemap";
@@ -917,15 +1081,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		DBDE05BA0E6C986ABEC4E2B74B29FEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E105FA6A316EFC419467E413B6FD740F /* FSPagerView.xcconfig */;
+			baseConfigurationReference = 33160B04D269E227BAC1F0C26D01DDA3 /* FSPagerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -953,9 +1116,42 @@
 			};
 			name = Debug;
 		};
+		E53527B503D08D1C80F87CE6D3F0B713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9CC57DCB27723082C651258BB8C94D /* Pods-LuckyForeverTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForeverTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LuckyForeverTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EE86E42F0AC2A452E0D5AE594A3A40A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E105FA6A316EFC419467E413B6FD740F /* FSPagerView.xcconfig */;
+			baseConfigurationReference = 33160B04D269E227BAC1F0C26D01DDA3 /* FSPagerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -984,48 +1180,23 @@
 			};
 			name = Release;
 		};
-		F2AEA3F3C923FB1CCEA850511CA56BC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCECECA9398E43B11E27660118D27AD3 /* Pods-LuckyForever.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LuckyForever/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LuckyForever/Pods-LuckyForever.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LuckyForever;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				995C3A53DEAA96B47E756185345E180D /* Debug */,
-				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8668A63F70CDBE548BD2FE7AB28FD686 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900F05F7A2435CF9FED9413E73906E3E /* Debug */,
+				6E4C85F06F1A71ED9BAB8CB1B454BD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1039,11 +1210,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9BDE2955896CA174CB481F7DFBE956F /* Build configuration list for PBXNativeTarget "Pods-LuckyForever" */ = {
+		BF90D4594438A0D232666AEB4974830D /* Build configuration list for PBXNativeTarget "Pods-LuckyForever" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2AEA3F3C923FB1CCEA850511CA56BC2 /* Debug */,
-				658DA76450A2E505A643F3D8905C41B4 /* Release */,
+				3A0655CFFF0DA36B6D3FCBF076F6050E /* Debug */,
+				2D6C358040E284EC25194CC1B3E194EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1051,8 +1222,8 @@
 		CF238033403E3BD4935031CB9D0EC8E3 /* Build configuration list for PBXNativeTarget "Pods-LuckyForeverUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B11D27447103CD24A2DA39CC36B220F /* Debug */,
-				B5BAE44668C849881B0059A0361B2764 /* Release */,
+				BE44FE4A4D96471AD1BF1318636B2951 /* Debug */,
+				979F0B69835CA17D283F05D38AE9AA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1069,8 +1240,8 @@
 		F0F661B5BF69DD6E7B2D4169E542598C /* Build configuration list for PBXNativeTarget "Pods-LuckyForeverTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				239A159777CCB314668B8634FD3C3774 /* Debug */,
-				960CFE05C50A6B8D761575D07399041D /* Release */,
+				66AE6808D00D28F91F921ABF8B0F2882 /* Debug */,
+				E53527B503D08D1C80F87CE6D3F0B713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

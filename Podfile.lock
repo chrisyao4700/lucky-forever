@@ -3,15 +3,18 @@ PODS:
     - DRPLoadingSpinner/core (= 1.3.1)
   - DRPLoadingSpinner/core (1.3.1)
   - FSPagerView (0.7.1)
+  - HMSegmentedControl (1.5.4)
 
 DEPENDENCIES:
   - DRPLoadingSpinner (~> 1.3)
   - FSPagerView
+  - HMSegmentedControl
 
 SPEC CHECKSUMS:
   DRPLoadingSpinner: 725e530bf4ebe2cc351b1fbc94d24fe8ac3300fd
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
 
-PODFILE CHECKSUM: 2b323c2c9e56ac2249c59fd48050a9deb1cb0c48
+PODFILE CHECKSUM: 578189236fa530b69ebea25c041114f9aaea34b2
 
 COCOAPODS: 1.3.1

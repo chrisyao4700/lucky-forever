@@ -12,6 +12,8 @@
 #import "LotteryData.h"
 #import "CYCalendarHandler.h"
 #import "CYWebHandler.h"
+#import "CYColor.h"
+#import "HighlightItemCell.h"
 
 @interface HomeTabViewController ()
 
@@ -33,6 +35,11 @@
     [self.pageView registerClass:[FSPagerViewCell class] forCellWithReuseIdentifier:@"cell"];
     self.pageView.transformer = [[FSPagerViewTransformer alloc] initWithType:FSPagerViewTransformerTypeCubic];
     self.pageView.isInfinite = YES;
+
+//    [self.navigationController.navigationBar.layer insertSublayer: [CYColor configNavigationViewWithFrame:self.navigationController.navigationBar.frame] atIndex:0];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_bar"] forBarMetrics:UIBarMetricsDefault];
+    self.title = @"一路发彩票";
+    //[self.navigationController.navigationBar setTitleTextAttributes:@{}];
     
     NSDictionary * dict = @{
                             @"title":@"大红鹰时时彩，乐享赚翻天！",
@@ -55,7 +62,7 @@
 //        return 1;
 //    }
     if (collectionView.tag == 2) {
-        return 1;
+        return 2;
     }
     return 0;
 }
@@ -67,6 +74,9 @@
 //    }
     if (collectionView.tag == 2) {
         if (section == 0) {
+            return 1;
+        }
+        if (section == 1) {
             return 12;
         }
     }
@@ -86,31 +96,41 @@
 //        return cell;
 //    }
     if (collectionView.tag == 2) {
-        UICollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"bottomCell" forIndexPath:indexPath];
-        for(UIView * subview in cell.subviews){
-            [subview removeFromSuperview];
+        if (indexPath.section == 0) {
+            if (indexPath.item ==0) {
+                HighlightItemCell * cell = (HighlightItemCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"highlight_cell" forIndexPath:indexPath];
+                cell.contentImage.image = [UIImage imageNamed:@"hightlightItems"];
+                return cell;
+            }
         }
-        imagePool = [[UIImageView alloc] initWithFrame:CGRectMake(12, 12, cell.bounds.size.width - 24, cell.bounds.size.width -24)];
-        imagePool.image = [UIImage imageNamed:[NSString stringWithFormat:@"butt_%ld.png",(long)indexPath.item]];
-        [cell addSubview:imagePool];
         
-        pool = [buttons objectAtIndex:indexPath.item];
-        
-        titlePool = [[UILabel alloc] initWithFrame:[self configTitleLabelRectWithCell:cell]];
-        [titlePool setFont: [UIFont systemFontOfSize:12]];
-        [titlePool setTextAlignment:NSTextAlignmentCenter];
-        titlePool.text = [pool objectForKey:@"title"];
-        [cell addSubview:titlePool];
-        
-        descPool = [[UILabel alloc] initWithFrame:[self configDescLabelRectWithCell:cell]];
-        [descPool setFont:[UIFont systemFontOfSize:11]];
-        [descPool setTextAlignment:NSTextAlignmentCenter];
-        [descPool setTextColor:[UIColor lightGrayColor]];
-        descPool.text = [pool objectForKey:@"desc"];
-        [cell addSubview:descPool];
-        
-        
-        return cell;
+        if (indexPath.section == 1) {
+            UICollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"bottomCell" forIndexPath:indexPath];
+            for(UIView * subview in cell.subviews){
+                [subview removeFromSuperview];
+            }
+            imagePool = [[UIImageView alloc] initWithFrame:CGRectMake(12, 12, cell.bounds.size.height - 24, cell.bounds.size.height -24)];
+            imagePool.image = [UIImage imageNamed:[NSString stringWithFormat:@"butt_%ld.png",(long)indexPath.item]];
+            [cell addSubview:imagePool];
+            
+            pool = [buttons objectAtIndex:indexPath.item];
+            
+            titlePool = [[UILabel alloc] initWithFrame:[self configTitleLabelRectWithCell:cell]];
+            [titlePool setFont: [UIFont systemFontOfSize:12]];
+            [titlePool setTextAlignment:NSTextAlignmentCenter];
+            titlePool.text = [pool objectForKey:@"title"];
+            [cell addSubview:titlePool];
+            
+            descPool = [[UILabel alloc] initWithFrame:[self configDescLabelRectWithCell:cell]];
+            [descPool setFont:[UIFont systemFontOfSize:11]];
+            [descPool setTextAlignment:NSTextAlignmentCenter];
+            [descPool setTextColor:[UIColor lightGrayColor]];
+            descPool.text = [pool objectForKey:@"desc"];
+            [cell addSubview:descPool];
+            
+            
+            return cell;
+        }
     }
     return nil;
     
@@ -128,11 +148,20 @@
 //        size = CGSizeMake(screenWidth, 158);
 //    }
     if (collectionView.tag == 2) {
-        CGRect screenRect = self.bottomContentView.bounds;
-        CGFloat screenWidth = screenRect.size.width;
-        float cellWidth = screenWidth / 4.0; //Replace the divisor with the column count requirement. Make sure to have it in float.
-        float cellHeight = cellWidth + 45;
-        size = CGSizeMake(cellWidth, cellHeight);
+        if (indexPath.section == 0) {
+            CGRect screenRect = self.bottomContentView.bounds;
+            CGFloat screenWidth = screenRect.size.width;
+            float cellWidth = screenWidth; //Replace the divisor with the column count requirement. Make sure to have it in float.
+            float cellHeight = screenWidth/(375.0/135.0);
+            size = CGSizeMake(cellWidth, cellHeight);
+        }
+        if (indexPath.section == 1) {
+            CGRect screenRect = self.bottomContentView.bounds;
+            CGFloat screenWidth = screenRect.size.width;
+            float cellWidth = screenWidth / 2; //Replace the divisor with the column count requirement. Make sure to have it in float.
+            float cellHeight = cellWidth - 80;
+            size = CGSizeMake(cellWidth, cellHeight);
+        }
     }
     return size;
 }
@@ -148,20 +177,20 @@
 }
 
 -(CGRect) configTitleLabelRectWithCell:(UICollectionViewCell *) cell{
+    float cell_height = cell.bounds.size.height;
     float cell_width = cell.bounds.size.width;
-    float label_width = cell_width -16;
+    float label_width = cell_width - cell_height - 8;
     //float label_height = (cell_height - cell_width - 13)/2;
-    float label_y = cell_width;
-    return CGRectMake(8, label_y, label_width, 16);
+    //float label_y = cell_width;
+    return CGRectMake(cell_height - 12, 30, label_width, 16);
 }
 -(CGRect) configDescLabelRectWithCell:(UICollectionViewCell *) cell{
     float cell_height = cell.bounds.size.height;
     float cell_width = cell.bounds.size.width;
-    float label_width = cell_width -16;
+    float label_width = cell_width - cell_height - 8;
     //float label_height = (cell_height - cell_width - 13)/2;
-    float label_y = cell_width + (cell_height - cell_width - 13)/2 + 2;
-    return CGRectMake(8, label_y, label_width, 16);
-    
+    //float label_y = cell_width + (cell_height - cell_width - 13)/2 + 2;
+    return CGRectMake(cell_height - 12,cell_height/2.0 + 8 , label_width, 16);
 }
 
 
