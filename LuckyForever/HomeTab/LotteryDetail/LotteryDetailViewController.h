@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <WebKit/WebKit.h>
-#import "DRPLoadingSpinner.h"
-@interface LotteryDetailViewController : UIViewController<WKNavigationDelegate>
-@property (strong, nonatomic) IBOutlet WKWebView *webView;
-@property NSString * strURL;
+#import "HMSegmentedControl.h"
+@interface LotteryDetailViewController : UIViewController
+
 @end

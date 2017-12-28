@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -73,16 +73,16 @@
 		0AA8921EFDCDCF226319F7BFA7A4B109 /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = HMSegmentedControl/HMSegmentedControl.m; sourceTree = "<group>"; };
 		0D9CC57DCB27723082C651258BB8C94D /* Pods-LuckyForeverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverTests.release.xcconfig"; sourceTree = "<group>"; };
 		10B692FE1CF80151628C4E1786F99D39 /* Pods-LuckyForever-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForever-acknowledgements.plist"; sourceTree = "<group>"; };
-		186224DA3D341E5DCB143E859BBA9148 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		186224DA3D341E5DCB143E859BBA9148 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FSPagerView.modulemap; sourceTree = "<group>"; };
 		1FE634B0ED4B1728F59A2FD988905FA5 /* DRPLoadingSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-umbrella.h"; sourceTree = "<group>"; };
 		2441766856B83E81A5A39C129C3AE337 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24AD7D724A6FC396E01BBD3344172D98 /* DRPLoadingSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DRPLoadingSpinner.modulemap; sourceTree = "<group>"; };
+		24AD7D724A6FC396E01BBD3344172D98 /* DRPLoadingSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DRPLoadingSpinner.modulemap; sourceTree = "<group>"; };
 		26493B1D91EF02B365E56DBC7CCBDC64 /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = HMSegmentedControl/HMSegmentedControl.h; sourceTree = "<group>"; };
 		2B7AC8A679B1DE1BCE230957347866A3 /* Pods-LuckyForever-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForever-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C3F357E466184095834A34E9C19472A /* Pods-LuckyForeverTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyForeverTests-umbrella.h"; sourceTree = "<group>"; };
 		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33160B04D269E227BAC1F0C26D01DDA3 /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
-		3390386913EFF23F0ADECEB8B957D498 /* Pods_LuckyForeverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckyForeverTests.framework; path = "Pods-LuckyForeverTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3390386913EFF23F0ADECEB8B957D498 /* Pods_LuckyForeverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyForeverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3587D1721B10CC81E3E9DBAB2D53F035 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		365B682655A5C860DE22C2DF7E524A81 /* Pods-LuckyForeverTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForeverTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		37F1C6C53753E402D7CEA659563F2F1A /* Pods-LuckyForeverUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyForeverUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -92,10 +92,10 @@
 		3C270CAB67DF94347ABED457E181B6D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4494C3D5B1CEDA02CA51C8D567D03BEB /* Pods-LuckyForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForever.release.xcconfig"; sourceTree = "<group>"; };
 		46D121B6B203B9D5D81FC58A8830B464 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
-		4CD91910FAC205B8227F04A13A16ABD7 /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRPLoadingSpinner.framework; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD91910FAC205B8227F04A13A16ABD7 /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4DF6845EEEFBDE885B24BF7162DA07 /* Pods-LuckyForeverUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverUITests-resources.sh"; sourceTree = "<group>"; };
 		4FFBAD48EA60AE99F04411C4A0082201 /* Pods-LuckyForever-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForever-resources.sh"; sourceTree = "<group>"; };
-		57F2826A981DD26029C7E5A2F13BC0E0 /* Pods_LuckyForeverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckyForeverUITests.framework; path = "Pods-LuckyForeverUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F2826A981DD26029C7E5A2F13BC0E0 /* Pods_LuckyForeverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyForeverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5937FB76D5E2D1FB33580A50C8E4A35B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C9A2DCABF53895D0B4BE952E6786206 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
 		61B15D7A766D9070FC901137FF871068 /* Pods-LuckyForever-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyForever-umbrella.h"; sourceTree = "<group>"; };
@@ -104,17 +104,17 @@
 		66E61EE3692F242AAC0A1A68E1C68ADB /* Pods-LuckyForever-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForever-dummy.m"; sourceTree = "<group>"; };
 		67DA60B110E201CD86EB41396CBFA05F /* DRPLoadingSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRPLoadingSpinner.xcconfig; sourceTree = "<group>"; };
 		6B6FAF2DD5E7C2BD1C695376E2AC6222 /* HMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMSegmentedControl.xcconfig; sourceTree = "<group>"; };
-		6D04E7CDF186197F06E401399D2C6D32 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D04E7CDF186197F06E401399D2C6D32 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7154992BC65B448B2498E46CFF2BB6F2 /* DRPLoadingSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRPLoadingSpinner-dummy.m"; sourceTree = "<group>"; };
-		76A2E1DEB9F35A6FC67536B2E4613F02 /* Pods-LuckyForeverUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LuckyForeverUITests.modulemap"; sourceTree = "<group>"; };
+		76A2E1DEB9F35A6FC67536B2E4613F02 /* Pods-LuckyForeverUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LuckyForeverUITests.modulemap"; sourceTree = "<group>"; };
 		781A596E79624B7F4B49AEF8BE1C5B1C /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
 		79DE0CA1E56AC61B3112AEFF597E6247 /* Pods-LuckyForeverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C5A9328AE81678DC70E870606EFA8E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E177899C57E6923484D2776A2591E9E /* DRPLoadingSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-prefix.pch"; sourceTree = "<group>"; };
 		8B145CE3FA4F2EEE4BC51CD850B3F8E0 /* DRPRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = src/core/DRPRefreshControl.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94CBFFF7EC53BD96A96AB0CAD21A35EF /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl_Protected.h; path = src/core/DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
-		94D90319B8835AE1764F176EE6AB441F /* Pods-LuckyForever.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LuckyForever.modulemap"; sourceTree = "<group>"; };
+		94D90319B8835AE1764F176EE6AB441F /* Pods-LuckyForever.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LuckyForever.modulemap"; sourceTree = "<group>"; };
 		9B3AF022F1C32CBA7CAACEADE44728BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EF32208C2271511AA0BCF30A3BBA7A3 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
 		A166291C095298456982520B0BDAAF23 /* Pods-LuckyForeverUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyForeverUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -129,14 +129,14 @@
 		B3986076A222D9F52FD4126EFAA6A3AB /* HMSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
 		B412F9FB54DD18F77EA6B5A98DAC5830 /* Pods-LuckyForeverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForeverUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BCECECA9398E43B11E27660118D27AD3 /* Pods-LuckyForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyForever.debug.xcconfig"; sourceTree = "<group>"; };
-		C2317E6B0C2B3C9768F1A858B1761696 /* HMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMSegmentedControl.framework; path = HMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C67409B71592AE303D5F4DEA626C7F14 /* HMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HMSegmentedControl.modulemap; sourceTree = "<group>"; };
+		C2317E6B0C2B3C9768F1A858B1761696 /* HMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67409B71592AE303D5F4DEA626C7F14 /* HMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HMSegmentedControl.modulemap; sourceTree = "<group>"; };
 		C68A3FC0E2BDD2A6F0AB235D8B6EBD9C /* HMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
 		CA9F4E9E70BA6DE55DFA442D3D58B048 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
 		CAD8BA3BD6DE2FA4021822F0D6F89750 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = src/core/DRPLoadingSpinner.h; sourceTree = "<group>"; };
 		CCFDD9994B456361587A41270B716AC5 /* Pods-LuckyForeverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyForeverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE1763077928BFACF6B3A936E2B60B08 /* Pods_LuckyForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LuckyForever.framework; path = "Pods-LuckyForever.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD681A4C6C478E385576C831671627A /* Pods-LuckyForeverTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LuckyForeverTests.modulemap"; sourceTree = "<group>"; };
+		CE1763077928BFACF6B3A936E2B60B08 /* Pods_LuckyForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyForever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD681A4C6C478E385576C831671627A /* Pods-LuckyForeverTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LuckyForeverTests.modulemap"; sourceTree = "<group>"; };
 		D3FDA15C3629D0608D93A24A97238BCF /* Pods-LuckyForeverTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyForeverTests-frameworks.sh"; sourceTree = "<group>"; };
 		DF7119740E878E5930332686D57DD0F9 /* Pods-LuckyForeverUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyForeverUITests-dummy.m"; sourceTree = "<group>"; };
 		E5E8ACF10970158E730B857AA125F411 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
@@ -228,7 +228,6 @@
 				829E5D1A7AAAA1575D557E3C33BFC06E /* core */,
 				46F2F295BA8C02B7366EC18902191C95 /* Support Files */,
 			);
-			name = DRPLoadingSpinner;
 			path = DRPLoadingSpinner;
 			sourceTree = "<group>";
 		};
@@ -303,7 +302,6 @@
 				0AA8921EFDCDCF226319F7BFA7A4B109 /* HMSegmentedControl.m */,
 				92EF67978BFCCAD4B8B0668A0BDD9E8B /* Support Files */,
 			);
-			name = HMSegmentedControl;
 			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
@@ -368,7 +366,6 @@
 				781A596E79624B7F4B49AEF8BE1C5B1C /* FSPageViewTransformer.swift */,
 				D4A88BF0FE776375329111B5712F2139 /* Support Files */,
 			);
-			name = FSPagerView;
 			path = FSPagerView;
 			sourceTree = "<group>";
 		};
@@ -739,6 +736,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -897,6 +895,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;

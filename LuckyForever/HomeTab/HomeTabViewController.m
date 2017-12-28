@@ -170,9 +170,9 @@
     
     if (collectionView.tag == 2) {
         pool = [buttons objectAtIndex:indexPath.item];
-        [CYWebHandler openWebWithURL:[NSURL URLWithString:[pool objectForKey:@"websitePage"]]];
+        //[CYWebHandler openWebWithURL:[NSURL URLWithString:[pool objectForKey:@"websitePage"]]];
         //[self performSegueWithIdentifier:@"toLotteryDetail" sender:self];
-        
+        [self performSegueWithIdentifier:@"toLotteryDetail" sender:self];
     }
 }
 
@@ -235,10 +235,8 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    if ([segue.identifier isEqualToString:@"toLotteryDetail"]) {
-        LotteryDetailViewController * ldvc = (LotteryDetailViewController *)[segue destinationViewController];
-        ldvc.strURL = [pool objectForKey:@"websitePage"];
-    }
+    //LotteryDetailViewController * ldvc =(LotteryDetailViewController *)[segue destinationViewController];
+    
     
 }
 

@@ -7,27 +7,32 @@
 //
 
 #import "LotteryDetailViewController.h"
-
+//#import "HMSegmentedControl.h"
 @interface LotteryDetailViewController ()
 
 @end
 
 @implementation LotteryDetailViewController{
-    DRPLoadingSpinner *spinner;
+    CGSize screeSize;
+    __weak IBOutlet HMSegmentedControl *segmentView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.webView.navigationDelegate = self;
-    
-    CGRect screenRect = [[UIScreen mainScreen] bounds];
-    spinner = [[DRPLoadingSpinner alloc] initWithFrame:CGRectMake((screenRect.size.width/2)-25, (screenRect.size.height/2)-25, 50, 50)];
-    [self.view addSubview:spinner];
+    screeSize = [[UIScreen mainScreen] bounds].size;
+    [segmentView setSectionTitles:@[@"今日开奖", @"昨日开奖", @"前日开奖", @"更多查询"]];
+//    HMSegmentedControl *segmentedControl = [[HMSegmentedControl alloc] initWithSectionTitles:@[@"今日开奖", @"昨日开奖", @"前日开奖", @"更多查询"]];
+//    segmentedControl.frame = CGRectMake(0, 10,screeSize.width, 60);
+    [segmentView addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
+//    [self.view addSubview:segmentedControl];
     // Do any additional setup after loading the view.
+}
+-(IBAction)segmentedControlChangedValue:(id)sender{
+    
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.strURL]]];
+    //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.strURL]]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,25 +40,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonButtonPushed:(id)sender {
-    [self dismissViewControllerAnimated:YES
-                             completion:nil];
-    
-}
--(void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation{
-    [spinner stopAnimating];
-    
-}
--(void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
-    //NSLog(@"FINISH");
-    
-    
-}
--(void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
-    //NSLog(@"START");
-    [spinner startAnimating];
-    
-}
+
 /*
  #pragma mark - Navigation
  

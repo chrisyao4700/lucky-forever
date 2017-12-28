@@ -2,32 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee45af9b-234b-4203-90dd-802f95f0f897" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Bitmap.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Bitmap@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Bitmap@3x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/hightlightItems.imageset/Contents.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/Contents.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/top_bar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/top_bar@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_bar.imageset/top_bar@3x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HighlightItemCell.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HighlightItemCell.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Modules/Color/CYColor.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LuckyForever/Modules/Color/CYColor.m" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" />
       <change beforePath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/Contents.json" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/Contents.json" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/ad1.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/ad1.png" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/Contents.json" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/Contents.json" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/banner1.png" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1@2x.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/banner1@2x.png" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_1.imageset/banner1@3x.png" afterPath="$PROJECT_DIR$/LuckyForever/Assets.xcassets/top_content_0.imageset/banner1@3x.png" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.h" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.h" />
       <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Info.plist" afterPath="$PROJECT_DIR$/LuckyForever/Info.plist" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/Main.storyboard" afterPath="$PROJECT_DIR$/LuckyForever/Main.storyboard" />
-      <change beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" />
+      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/HMSegmentedControl/HMSegmentedControl.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/HMSegmentedControl/HMSegmentedControl.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/HMSegmentedControl.xcscheme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForever.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForever.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl-dummy.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl-umbrella.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl.modulemap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/Info.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.markdown" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.plist" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +79,8 @@
       <file leaf-file-name="LotteryDetailViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="465">
+              <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -84,8 +89,8 @@
       <file leaf-file-name="HomeTabViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -105,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#136#159#0" expanded="true" />
               </folding>
@@ -223,12 +228,12 @@
       <workItem from="1514315679749" duration="3798000" />
       <workItem from="1514411527441" duration="30000" />
       <workItem from="1514411897495" duration="447000" />
-      <workItem from="1514485357504" duration="833000" />
+      <workItem from="1514485357504" duration="1557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9719000" />
+    <option name="totallyTimeSpent" value="10443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="775" extended-state="0" />
@@ -500,7 +505,7 @@
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#136#159#0" expanded="true" />
           </folding>
@@ -535,16 +540,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="465">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="180">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>

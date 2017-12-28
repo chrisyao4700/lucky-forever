@@ -571,7 +571,7 @@
                     <connections>
                         <outlet property="bottomContentView" destination="QNQ-6L-qTY" id="VRw-G8-hSc"/>
                         <outlet property="pageView" destination="cZz-Yh-s5k" id="C6J-3Y-cRF"/>
-                        <segue destination="vSf-Lu-hrb" kind="presentation" identifier="toLotteryDetail" id="Gzl-hP-xeZ"/>
+                        <segue destination="vSf-Lu-hrb" kind="show" identifier="toLotteryDetail" id="Gzl-hP-xeZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9m-C3-wGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -585,13 +585,30 @@
                     <view key="view" contentMode="scaleToFill" id="I0G-DM-JaA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ri2-O4-Y3E" customClass="HMSegmentedControl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ORU-Im-7xz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ri2-O4-Y3E" firstAttribute="top" secondItem="tE6-et-phj" secondAttribute="top" id="O2k-Sy-iOu"/>
+                            <constraint firstItem="ri2-O4-Y3E" firstAttribute="trailing" secondItem="tE6-et-phj" secondAttribute="trailing" id="RqL-I7-qLD"/>
+                            <constraint firstItem="ri2-O4-Y3E" firstAttribute="leading" secondItem="tE6-et-phj" secondAttribute="leading" id="ylx-SY-Cua"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tE6-et-phj"/>
                     </view>
+                    <connections>
+                        <outlet property="segmentView" destination="ri2-O4-Y3E" id="rMq-tZ-4pt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xeZ-8Z-Uwq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2364" y="-842"/>
+            <point key="canvasLocation" x="2364" y="-842.42878560719646"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0jN-Ro-gca">
