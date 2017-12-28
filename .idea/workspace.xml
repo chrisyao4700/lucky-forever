@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45af9b-234b-4203-90dd-802f95f0f897" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_6914579a2e951d799869fa47bb663f2ba17a53aa" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DiscoverViewController.h" pinned="false" current-in-tab="false">
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -62,8 +59,8 @@
       <file leaf-file-name="HomeTabViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -200,12 +197,13 @@
       <workItem from="1514314070917" duration="1505000" />
       <workItem from="1514315679749" duration="3798000" />
       <workItem from="1514411527441" duration="30000" />
-      <workItem from="1514411897495" duration="48000" />
+      <workItem from="1514411897495" duration="447000" />
+      <workItem from="1514485357504" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8487000" />
+    <option name="totallyTimeSpent" value="9428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="775" extended-state="1" />
@@ -242,6 +240,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#137#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#136#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LuckyForever/DiscoverTab/DiscoverDetail/DiscoverDetailViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -453,15 +511,15 @@
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding />
         </state>
       </provider>
