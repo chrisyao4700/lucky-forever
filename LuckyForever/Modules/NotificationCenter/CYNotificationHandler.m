@@ -9,6 +9,7 @@
 #import "CYNotificationHandler.h"
 #import "AppDelegate.h"
 #import "CYWebHandler.h"
+
 @implementation CYNotificationHandler
 
 +(void) addEventToCoredata:(NSDictionary *) event{

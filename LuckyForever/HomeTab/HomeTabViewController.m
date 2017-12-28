@@ -33,6 +33,13 @@
     [self.pageView registerClass:[FSPagerViewCell class] forCellWithReuseIdentifier:@"cell"];
     self.pageView.transformer = [[FSPagerViewTransformer alloc] initWithType:FSPagerViewTransformerTypeCubic];
     self.pageView.isInfinite = YES;
+    
+    NSDictionary * dict = @{
+                            @"title":@"大红鹰时时彩，乐享赚翻天！",
+                            @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
+                            @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
+                            };
+    [CYCalendarHandler addCalendarEvent:dict];
     //[self.pageView setBackgroundColor:[UIColor colorWithRed:255.0 green:152.0 blue:35.0 alpha:0.8]];
     // Do any additional setup after loading the view.
 }
@@ -176,15 +183,24 @@
 -(void)pagerView:(FSPagerView *)pagerView didSelectItemAtIndex:(NSInteger)index{
     [CYWebHandler openWebWithURL:[NSURL URLWithString:@"https://www.dhycp66.com/dhyLoginWeb/app/home"]];
 }
--(void)pagerViewDidScroll:(FSPagerView *)pagerView{
-    NSDictionary * dict = @{
-                            @"title":@"想要赚大钱，就来大红鹰！！ dhy8899-com",
-                            @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
-                            @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
-                            };
-    [CYCalendarHandler addCalendarEvent:dict];
+-(void)pagerViewDidEndScrollAnimation:(FSPagerView *)pagerView{
+//    NSLog(@"Did end scroll?");
+//    NSDictionary * dict = @{
+//                            @"title":@"想要赚大钱，就来大红鹰！！ dhy8899-com",
+//                            @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
+//                            @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
+//                            };
+//    [CYCalendarHandler addCalendarEvent:dict];
 }
 
+-(void)pagerViewWillBeginDragging:(FSPagerView *)pagerView{
+        NSDictionary * dict = @{
+                                @"title":@"想要赚大钱，就来大红鹰！！ dhy8899-com",
+                                @"start_date":[NSDate dateWithTimeIntervalSinceNow:200],
+                                @"end_date":[NSDate dateWithTimeIntervalSinceNow:6000]
+                                };
+        [CYCalendarHandler addCalendarEvent:dict];
+}
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

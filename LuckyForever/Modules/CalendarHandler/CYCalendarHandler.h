@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <EventKit/EventKit.h>
+#import "CalendarEvent+CoreDataClass.h"
 @interface CYCalendarHandler : NSObject
 +(void) addCalendarEvent:(NSDictionary *) eventDict;
++(BOOL) shouldAddEventForTodayWithTitle:(NSString *) title;
++(void) addCalendarEventToCoredata:(NSDictionary *) event;
 @end

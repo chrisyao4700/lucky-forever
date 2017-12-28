@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		025E468F1FF2DD7D00061945 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025E468E1FF2DD7D00061945 /* WebKit.framework */; };
 		025E46931FF2DE0400061945 /* CYWebHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 025E46921FF2DE0400061945 /* CYWebHandler.m */; };
+		02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD69B31FF45B3F00DA87E8 /* CYFunction.m */; };
 		02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */; };
 		02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A891FEDBAEF004BBBDD /* main.m */; };
 		02D83A941FEDBAEF004BBBDD /* LuckyForeverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A931FEDBAEF004BBBDD /* LuckyForeverTests.m */; };
@@ -65,6 +66,8 @@
 		025E468E1FF2DD7D00061945 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		025E46911FF2DE0400061945 /* CYWebHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYWebHandler.h; sourceTree = "<group>"; };
 		025E46921FF2DE0400061945 /* CYWebHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWebHandler.m; sourceTree = "<group>"; };
+		02AD69B21FF45B3F00DA87E8 /* CYFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFunction.h; sourceTree = "<group>"; };
+		02AD69B31FF45B3F00DA87E8 /* CYFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFunction.m; sourceTree = "<group>"; };
 		02D83A741FEDBAEF004BBBDD /* LuckyForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D83A811FEDBAEF004BBBDD /* LuckyForever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuckyForever.xcdatamodel; sourceTree = "<group>"; };
 		02D83A881FEDBAEF004BBBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -172,6 +175,15 @@
 				025E46921FF2DE0400061945 /* CYWebHandler.m */,
 			);
 			path = WebHandler;
+			sourceTree = "<group>";
+		};
+		02AD69B11FF45AB800DA87E8 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				02AD69B21FF45B3F00DA87E8 /* CYFunction.h */,
+				02AD69B31FF45B3F00DA87E8 /* CYFunction.m */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 		02D83A6B1FEDBAEF004BBBDD = {
@@ -320,6 +332,7 @@
 		02D83AE01FEDBB91004BBBDD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				02AD69B11FF45AB800DA87E8 /* Functions */,
 				025E46901FF2DDE700061945 /* WebHandler */,
 				02D83AE11FEDBB91004BBBDD /* CalendarHandler */,
 				02D83AE41FEDBB91004BBBDD /* NotificationCenter */,
@@ -677,6 +690,7 @@
 				02D83AF41FEDBB91004BBBDD /* LotteryData.m in Sources */,
 				02D83AEC1FEDBB91004BBBDD /* DiscoverData.m in Sources */,
 				025E46931FF2DE0400061945 /* CYWebHandler.m in Sources */,
+				02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */,
 				02D83AEE1FEDBB91004BBBDD /* DiscoverFooterCell.m in Sources */,
 				02D83AFD1FEDBB91004BBBDD /* EventTabViewController.m in Sources */,
 				02D83AF91FEDBB91004BBBDD /* EventFooterTableViewCell.m in Sources */,
