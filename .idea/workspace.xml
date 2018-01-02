@@ -3,36 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45af9b-234b-4203-90dd-802f95f0f897" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LuckyForever.xcodeproj/project.pbxproj" />
       <change beforePath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuckyForever.xcworkspace/xcuserdata/od1.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m" />
-      <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.h" />
       <change beforePath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" afterPath="$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/HMSegmentedControl/HMSegmentedControl.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/HMSegmentedControl/HMSegmentedControl.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/HMSegmentedControl/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/HMSegmentedControl.xcscheme" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForever.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/Pods-LuckyForever.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl-dummy.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl-umbrella.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl.modulemap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/HMSegmentedControl.xcconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HMSegmentedControl/Info.plist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.markdown" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-acknowledgements.plist" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever-frameworks.sh" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.debug.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForever/Pods-LuckyForever.release.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.debug.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverTests/Pods-LuckyForeverTests.release.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.debug.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-LuckyForeverUITests/Pods-LuckyForeverUITests.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/HMSegmentedControl.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/od1.xcuserdatad/xcschemes/HMSegmentedControl.xcscheme" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -89,8 +62,8 @@
       <file leaf-file-name="HomeTabViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -139,7 +112,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -201,13 +174,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LuckyForever">
+    <configuration name="HMSegmentedControl" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="HMSegmentedControl" CONFIG_NAME="Debug" SCHEME_NAME="HMSegmentedControl" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
     <configuration name="LuckyForever" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LuckyForever" TARGET_NAME="LuckyForever" CONFIG_NAME="Debug" SCHEME_NAME="LuckyForever" RUN_TARGET_PROJECT_NAME="LuckyForever" RUN_TARGET_NAME="LuckyForever" MAKE_ACTIVE="TRUE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.LuckyForever" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HMSegmentedControl" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -228,15 +211,16 @@
       <workItem from="1514315679749" duration="3798000" />
       <workItem from="1514411527441" duration="30000" />
       <workItem from="1514411897495" duration="447000" />
-      <workItem from="1514485357504" duration="1557000" />
+      <workItem from="1514485357504" duration="2562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10443000" />
+    <option name="totallyTimeSpent" value="11448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="775" extended-state="0" />
+    <frame x="40" y="23" width="1400" height="775" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -246,7 +230,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -541,15 +525,15 @@
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/LotteryDetail/LotteryDetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LuckyForever/HomeTab/HomeTabViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>

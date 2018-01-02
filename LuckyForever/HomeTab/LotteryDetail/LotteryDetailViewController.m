@@ -1,38 +1,26 @@
 //
 //  LotteryDetailViewController.m
-//  一路发
+//  LuckyForever
 //
-//  Created by 姚远 on 12/12/17.
-//  Copyright © 2017 OC.yilufa. All rights reserved.
+//  Created by OD INTERNATIONAL 3 on 1/2/18.
+//  Copyright © 2018 OD INTERNATIONAL 3. All rights reserved.
 //
 
 #import "LotteryDetailViewController.h"
-//#import "HMSegmentedControl.h"
+
 @interface LotteryDetailViewController ()
 
 @end
 
 @implementation LotteryDetailViewController{
-    CGSize screeSize;
-    __weak IBOutlet HMSegmentedControl *segmentView;
+    
+    NSArray * lotteryList;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    screeSize = [[UIScreen mainScreen] bounds].size;
-    [segmentView setSectionTitles:@[@"今日开奖", @"昨日开奖", @"前日开奖", @"更多查询"]];
-//    HMSegmentedControl *segmentedControl = [[HMSegmentedControl alloc] initWithSectionTitles:@[@"今日开奖", @"昨日开奖", @"前日开奖", @"更多查询"]];
-//    segmentedControl.frame = CGRectMake(0, 10,screeSize.width, 60);
-    [segmentView addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
-//    [self.view addSubview:segmentedControl];
-    // Do any additional setup after loading the view.
-}
--(IBAction)segmentedControlChangedValue:(id)sender{
     
-}
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.strURL]]];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,15 +28,42 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 2;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    NSInteger temp = 0;
+    if (section == 0) {
+        temp = 1;
+    }
+    if (section == 1) {
+        temp = 15;
+        temp = 0;
+    }
+    //temp = 0;
+    return temp;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        //Title
+        UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"titleCell"];
+        return cell;
+    }
+    
+    if (indexPath.section == 1) {
+        //Cotent
+    }
+    return nil;
+}
 
 /*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

@@ -1,13 +1,14 @@
 //
 //  LotteryDetailViewController.h
-//  一路发
+//  LuckyForever
 //
-//  Created by 姚远 on 12/12/17.
-//  Copyright © 2017 OC.yilufa. All rights reserved.
+//  Created by OD INTERNATIONAL 3 on 1/2/18.
+//  Copyright © 2018 OD INTERNATIONAL 3. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "HMSegmentedControl.h"
-@interface LotteryDetailViewController : UIViewController
+
+@interface LotteryDetailViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *contentView;
 
 @end

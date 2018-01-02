@@ -11,6 +11,12 @@
 		025E46931FF2DE0400061945 /* CYWebHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 025E46921FF2DE0400061945 /* CYWebHandler.m */; };
 		0270B2681FF575480042A012 /* CYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270B2671FF575480042A012 /* CYColor.m */; };
 		0270B26B1FF581D80042A012 /* HighlightItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270B26A1FF581D80042A012 /* HighlightItemCell.m */; };
+		02AA2F351FFC246300743676 /* LotteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F341FFC246300743676 /* LotteryDetailViewController.m */; };
+		02AA2F381FFC2D3600743676 /* FTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F371FFC2D3600743676 /* FTTableViewCell.m */; };
+		02AA2F3B1FFC2D6F00743676 /* FTTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F3A1FFC2D6F00743676 /* FTTitleCell.m */; };
+		02AA2F441FFC31CA00743676 /* LinkPara.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F3E1FFC31C900743676 /* LinkPara.m */; };
+		02AA2F451FFC31CA00743676 /* AppDataSocketConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F401FFC31CA00743676 /* AppDataSocketConnector.m */; };
+		02AA2F461FFC31CA00743676 /* LinkParaDev.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F411FFC31CA00743676 /* LinkParaDev.m */; };
 		02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD69B31FF45B3F00DA87E8 /* CYFunction.m */; };
 		02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */; };
 		02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A891FEDBAEF004BBBDD /* main.m */; };
@@ -26,7 +32,6 @@
 		02D83AF21FEDBB91004BBBDD /* HomeTabTopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AC61FEDBB90004BBBDD /* HomeTabTopCollectionViewCell.m */; };
 		02D83AF31FEDBB91004BBBDD /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AC81FEDBB90004BBBDD /* HomeTabViewController.m */; };
 		02D83AF41FEDBB91004BBBDD /* LotteryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ACA1FEDBB90004BBBDD /* LotteryData.m */; };
-		02D83AF51FEDBB91004BBBDD /* LotteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83ACD1FEDBB90004BBBDD /* LotteryDetailViewController.m */; };
 		02D83AF61FEDBB91004BBBDD /* EventData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD01FEDBB91004BBBDD /* EventData.m */; };
 		02D83AF71FEDBB91004BBBDD /* EventContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD31FEDBB91004BBBDD /* EventContentTableViewCell.m */; };
 		02D83AF81FEDBB91004BBBDD /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83AD51FEDBB91004BBBDD /* EventDetailViewController.m */; };
@@ -72,6 +77,19 @@
 		0270B2671FF575480042A012 /* CYColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYColor.m; sourceTree = "<group>"; };
 		0270B2691FF581D80042A012 /* HighlightItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighlightItemCell.h; sourceTree = "<group>"; };
 		0270B26A1FF581D80042A012 /* HighlightItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighlightItemCell.m; sourceTree = "<group>"; };
+		02AA2F331FFC246300743676 /* LotteryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryDetailViewController.h; sourceTree = "<group>"; };
+		02AA2F341FFC246300743676 /* LotteryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryDetailViewController.m; sourceTree = "<group>"; };
+		02AA2F361FFC2D3600743676 /* FTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTTableViewCell.h; sourceTree = "<group>"; };
+		02AA2F371FFC2D3600743676 /* FTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTTableViewCell.m; sourceTree = "<group>"; };
+		02AA2F391FFC2D6F00743676 /* FTTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTTitleCell.h; sourceTree = "<group>"; };
+		02AA2F3A1FFC2D6F00743676 /* FTTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTTitleCell.m; sourceTree = "<group>"; };
+		02AA2F3D1FFC31C900743676 /* LinkPara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkPara.h; sourceTree = "<group>"; };
+		02AA2F3E1FFC31C900743676 /* LinkPara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkPara.m; sourceTree = "<group>"; };
+		02AA2F3F1FFC31CA00743676 /* LinkParaDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkParaDev.h; sourceTree = "<group>"; };
+		02AA2F401FFC31CA00743676 /* AppDataSocketConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataSocketConnector.m; sourceTree = "<group>"; };
+		02AA2F411FFC31CA00743676 /* LinkParaDev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkParaDev.m; sourceTree = "<group>"; };
+		02AA2F421FFC31CA00743676 /* AppDataSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataSocketDelegate.h; sourceTree = "<group>"; };
+		02AA2F431FFC31CA00743676 /* AppDataSocketConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataSocketConnector.h; sourceTree = "<group>"; };
 		02AD69B21FF45B3F00DA87E8 /* CYFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFunction.h; sourceTree = "<group>"; };
 		02AD69B31FF45B3F00DA87E8 /* CYFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFunction.m; sourceTree = "<group>"; };
 		02D83A741FEDBAEF004BBBDD /* LuckyForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,8 +122,6 @@
 		02D83AC81FEDBB90004BBBDD /* HomeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
 		02D83AC91FEDBB90004BBBDD /* LotteryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryData.h; sourceTree = "<group>"; };
 		02D83ACA1FEDBB90004BBBDD /* LotteryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryData.m; sourceTree = "<group>"; };
-		02D83ACC1FEDBB90004BBBDD /* LotteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryDetailViewController.h; sourceTree = "<group>"; };
-		02D83ACD1FEDBB90004BBBDD /* LotteryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryDetailViewController.m; sourceTree = "<group>"; };
 		02D83ACF1FEDBB91004BBBDD /* EventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventData.h; sourceTree = "<group>"; };
 		02D83AD01FEDBB91004BBBDD /* EventData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventData.m; sourceTree = "<group>"; };
 		02D83AD21FEDBB91004BBBDD /* EventContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventContentTableViewCell.h; sourceTree = "<group>"; };
@@ -190,6 +206,20 @@
 				0270B2671FF575480042A012 /* CYColor.m */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		02AA2F3C1FFC309D00743676 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				02AA2F431FFC31CA00743676 /* AppDataSocketConnector.h */,
+				02AA2F401FFC31CA00743676 /* AppDataSocketConnector.m */,
+				02AA2F421FFC31CA00743676 /* AppDataSocketDelegate.h */,
+				02AA2F3D1FFC31C900743676 /* LinkPara.h */,
+				02AA2F3E1FFC31C900743676 /* LinkPara.m */,
+				02AA2F3F1FFC31CA00743676 /* LinkParaDev.h */,
+				02AA2F411FFC31CA00743676 /* LinkParaDev.m */,
+			);
+			path = WebSocket;
 			sourceTree = "<group>";
 		};
 		02AD69B11FF45AB800DA87E8 /* Functions */ = {
@@ -309,8 +339,12 @@
 		02D83ACB1FEDBB90004BBBDD /* LotteryDetail */ = {
 			isa = PBXGroup;
 			children = (
-				02D83ACC1FEDBB90004BBBDD /* LotteryDetailViewController.h */,
-				02D83ACD1FEDBB90004BBBDD /* LotteryDetailViewController.m */,
+				02AA2F331FFC246300743676 /* LotteryDetailViewController.h */,
+				02AA2F341FFC246300743676 /* LotteryDetailViewController.m */,
+				02AA2F361FFC2D3600743676 /* FTTableViewCell.h */,
+				02AA2F371FFC2D3600743676 /* FTTableViewCell.m */,
+				02AA2F391FFC2D6F00743676 /* FTTitleCell.h */,
+				02AA2F3A1FFC2D6F00743676 /* FTTitleCell.m */,
 			);
 			path = LotteryDetail;
 			sourceTree = "<group>";
@@ -349,6 +383,7 @@
 		02D83AE01FEDBB91004BBBDD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				02AA2F3C1FFC309D00743676 /* WebSocket */,
 				0270B2651FF575300042A012 /* Color */,
 				02AD69B11FF45AB800DA87E8 /* Functions */,
 				025E46901FF2DDE700061945 /* WebHandler */,
@@ -706,6 +741,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D83AF21FEDBB91004BBBDD /* HomeTabTopCollectionViewCell.m in Sources */,
+				02AA2F441FFC31CA00743676 /* LinkPara.m in Sources */,
+				02AA2F451FFC31CA00743676 /* AppDataSocketConnector.m in Sources */,
 				02D83AFE1FEDBB91004BBBDD /* CYCalendarHandler.m in Sources */,
 				02D83AF41FEDBB91004BBBDD /* LotteryData.m in Sources */,
 				02D83AEC1FEDBB91004BBBDD /* DiscoverData.m in Sources */,
@@ -713,6 +750,7 @@
 				0270B26B1FF581D80042A012 /* HighlightItemCell.m in Sources */,
 				02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */,
 				02D83AEE1FEDBB91004BBBDD /* DiscoverFooterCell.m in Sources */,
+				02AA2F3B1FFC2D6F00743676 /* FTTitleCell.m in Sources */,
 				02D83AFD1FEDBB91004BBBDD /* EventTabViewController.m in Sources */,
 				02D83AF91FEDBB91004BBBDD /* EventFooterTableViewCell.m in Sources */,
 				02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */,
@@ -724,13 +762,15 @@
 				02D83AFA1FEDBB91004BBBDD /* EventSeperaterTableViewCell.m in Sources */,
 				02D83AF11FEDBB91004BBBDD /* DiscoverViewController.m in Sources */,
 				02D83AEB1FEDBB91004BBBDD /* DiscoverContentCell.m in Sources */,
+				02AA2F381FFC2D3600743676 /* FTTableViewCell.m in Sources */,
 				02D83AF01FEDBB91004BBBDD /* DiscoverTitleCell.m in Sources */,
-				02D83AF51FEDBB91004BBBDD /* LotteryDetailViewController.m in Sources */,
 				02D83AED1FEDBB91004BBBDD /* DiscoverDetailViewController.m in Sources */,
 				02D83AFF1FEDBB91004BBBDD /* CYNotificationHandler.m in Sources */,
+				02AA2F461FFC31CA00743676 /* LinkParaDev.m in Sources */,
 				02D83AF61FEDBB91004BBBDD /* EventData.m in Sources */,
 				02D83B141FEDBF97004BBBDD /* AppDelegate.m in Sources */,
 				02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */,
+				02AA2F351FFC246300743676 /* LotteryDetailViewController.m in Sources */,
 				02D83AF81FEDBB91004BBBDD /* EventDetailViewController.m in Sources */,
 				02D83AFC1FEDBB91004BBBDD /* EventTableViewCell.m in Sources */,
 			);
