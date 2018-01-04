@@ -10,7 +10,7 @@
 #import "LinkPara.h"
 #import "AppDelegate.h"
 #import "LinkParaDev.h"
-#import "CYFunctionSet.h"
+//#import "CYFunctionSet.h"
 @implementation AppDataSocketConnector{
     NSDictionary * linkPara;
 }
@@ -54,7 +54,6 @@
     NSError *jsonError;
     NSURL *postURL = [NSURL URLWithString:[linkPara objectForKey:@"link_directory"]];
     //NSLog(@"Upload Pack:%@", uploadPack.description);
-    
     NSData* jsonData = [NSJSONSerialization dataWithJSONObject:uploadPack options:0 error:&jsonError];
     NSMutableURLRequest * request = [NSMutableURLRequest requestWithURL:postURL];
     [request setValue:@"application/json" forHTTPHeaderField:@"content-type"];
@@ -241,71 +240,71 @@
     }] resume];
 }
 
--(void) sendImageUploadRequestWithImage:(UIImage *) image
-                         andCustomerTag:(NSInteger) c_tag
-                            forFileName:(NSString *) file_name
-                      andWillStartBlock:(void (^)(NSInteger c_tag)) willStartHandler
-                    andGotResponseBlock:(void (^)(NSInteger c_tag)) gotResponseHandler
-                          andErrorBlock:(void (^)(NSInteger c_tag, NSString * message)) errorHandler
-                        andSuccessBlock:(void (^)(NSInteger c_tag, NSDictionary * resultDict)) successHandler{
-    
-    if (!linkPara) {
-        linkPara = [self prepareLinkPara];
-    }
-    
-    NSData *imageData = UIImagePNGRepresentation([CYFunctionSet imageWithImage:image convertToSize:CGSizeMake(200, 200)]);
-    
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:[linkPara objectForKey:@"imageAPI_directory"]]];
-    [request setHTTPMethod:@"POST"];
-    
-    NSString *boundary = @"---------------------------14737809831466499882746641449"
-    ;
-    NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",boundary];
-    [request addValue:contentType forHTTPHeaderField: @"Content-Type"];
-    
-    NSMutableData *body = [NSMutableData data];
-    [body appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-    [body appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"userfile\"; filename=\"%@\"\r\n",file_name]dataUsingEncoding:NSUTF8StringEncoding]];
-    [body appendData:[@"Content-Type: application/octet-stream\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
-    [body appendData:[NSData dataWithData:imageData]];
-    [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-    [request setHTTPBody:body];
-    
-    NSLog(@"UPLOAD IMAGE REQUEST: %@",request.description);
-    
-    willStartHandler(c_tag);
-    [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        gotResponseHandler(c_tag);
-        if (!data) {
-            //Handle No Data
-            errorHandler(c_tag,@"INTERNET ERROR, PLEASE CHECK YOUR CONNECTION SETTING.");
-            
-        }else{
-            // Handle Action
-            NSError * errorDecode;
-            //NSString * resultStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-            //NSLog(@"%@", resultStr);
-            
-            NSDictionary * resultDict= [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&errorDecode];
-            NSNumber* status = (NSNumber *)[resultDict objectForKey:@"status"];
-            NSString * message = [resultDict objectForKey:@"message"];
-            if ([status boolValue] == YES) {
-                
-                
-                
-                successHandler(c_tag,resultDict);
-            }else{
-                
-                errorHandler(c_tag,message);
-            }
-        }
-        
-    }] resume];
-    
-    
-}
-
+//-(void) sendImageUploadRequestWithImage:(UIImage *) image
+//                         andCustomerTag:(NSInteger) c_tag
+//                            forFileName:(NSString *) file_name
+//                      andWillStartBlock:(void (^)(NSInteger c_tag)) willStartHandler
+//                    andGotResponseBlock:(void (^)(NSInteger c_tag)) gotResponseHandler
+//                          andErrorBlock:(void (^)(NSInteger c_tag, NSString * message)) errorHandler
+//                        andSuccessBlock:(void (^)(NSInteger c_tag, NSDictionary * resultDict)) successHandler{
+//
+//    if (!linkPara) {
+//        linkPara = [self prepareLinkPara];
+//    }
+//
+//    NSData *imageData = UIImagePNGRepresentation([CYFunctionSet imageWithImage:image convertToSize:CGSizeMake(200, 200)]);
+//
+//    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+//    [request setURL:[NSURL URLWithString:[linkPara objectForKey:@"imageAPI_directory"]]];
+//    [request setHTTPMethod:@"POST"];
+//
+//    NSString *boundary = @"---------------------------14737809831466499882746641449"
+//    ;
+//    NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@",boundary];
+//    [request addValue:contentType forHTTPHeaderField: @"Content-Type"];
+//
+//    NSMutableData *body = [NSMutableData data];
+//    [body appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+//    [body appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"userfile\"; filename=\"%@\"\r\n",file_name]dataUsingEncoding:NSUTF8StringEncoding]];
+//    [body appendData:[@"Content-Type: application/octet-stream\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
+//    [body appendData:[NSData dataWithData:imageData]];
+//    [body appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n",boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+//    [request setHTTPBody:body];
+//
+//    NSLog(@"UPLOAD IMAGE REQUEST: %@",request.description);
+//
+//    willStartHandler(c_tag);
+//    [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//        gotResponseHandler(c_tag);
+//        if (!data) {
+//            //Handle No Data
+//            errorHandler(c_tag,@"INTERNET ERROR, PLEASE CHECK YOUR CONNECTION SETTING.");
+//
+//        }else{
+//            // Handle Action
+//            NSError * errorDecode;
+//            //NSString * resultStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//            //NSLog(@"%@", resultStr);
+//
+//            NSDictionary * resultDict= [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&errorDecode];
+//            NSNumber* status = (NSNumber *)[resultDict objectForKey:@"status"];
+//            NSString * message = [resultDict objectForKey:@"message"];
+//            if ([status boolValue] == YES) {
+//
+//
+//
+//                successHandler(c_tag,resultDict);
+//            }else{
+//
+//                errorHandler(c_tag,message);
+//            }
+//        }
+//
+//    }] resume];
+//
+//
+//}
+//
 
 
 
@@ -321,13 +320,15 @@
     if (!linkPara) {
         linkPara = [self prepareLinkPara];
     }
-    NSDictionary * uploadPack = @{
-                                  @"api_key":[linkPara objectForKey:@"api_key"],
-                                  @"version_code": [linkPara objectForKey:@"version_code"],
-                                  @"service_code": service_code,
-                                  @"data_pack" : dataPack
-                                  };
+//    NSDictionary * uploadPack = @{
+//                                  @"api_key":[linkPara objectForKey:@"api_key"],
+//                                  @"version_code": [linkPara objectForKey:@"version_code"],
+//                                  @"service_code": service_code,
+//                                  @"data_pack" : dataPack
+//                                  };
+    NSDictionary * uploadPack = dataPack;
     NSError *jsonError;
+    //NSURL *postURL = [NSURL URLWithString:[linkPara objectForKey:@"link_directory"]];
     NSURL *postURL = [NSURL URLWithString:[linkPara objectForKey:@"link_directory"]];
     //NSLog(@"Upload Pack:%@", uploadPack.description);
     
@@ -378,12 +379,13 @@
     if (!linkPara) {
         linkPara = [self prepareLinkPara];
     }
-    NSDictionary * uploadPack = @{
-                                  @"api_key":[linkPara objectForKey:@"api_key"],
-                                  @"version_code": [linkPara objectForKey:@"version_code"],
-                                  @"service_code": service_code,
-                                  @"data_pack" : dataPack
-                                  };
+//    NSDictionary * uploadPack = @{
+//                                  @"api_key":[linkPara objectForKey:@"api_key"],
+//                                  @"version_code": [linkPara objectForKey:@"version_code"],
+//                                  @"service_code": service_code,
+//                                  @"data_pack" : dataPack
+//                                  };
+    NSDictionary * uploadPack = dataPack;
     NSError *jsonError;
     NSURL *postURL = [NSURL URLWithString:[linkPara objectForKey:@"link_directory"]];
     NSLog(@"Upload Pack:%@", uploadPack.description);
@@ -395,6 +397,7 @@
     [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[jsonData length]] forHTTPHeaderField:@"Content-Length"];
     request.HTTPBody = jsonData;
     request.HTTPMethod = @"POST";
+    
     
     if (self.delegate) {
         [self.delegate dataSocketWillStartRequestWithTag:99

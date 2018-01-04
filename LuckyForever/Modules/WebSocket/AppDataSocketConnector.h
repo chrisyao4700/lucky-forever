@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDataSocketDelegate.h"
-#import "CurrentUserManager.h"
+//#import "CurrentUserManager.h"
 
 @interface AppDataSocketConnector : NSObject
 

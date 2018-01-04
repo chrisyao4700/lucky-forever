@@ -17,6 +17,11 @@
 		02AA2F441FFC31CA00743676 /* LinkPara.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F3E1FFC31C900743676 /* LinkPara.m */; };
 		02AA2F451FFC31CA00743676 /* AppDataSocketConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F401FFC31CA00743676 /* AppDataSocketConnector.m */; };
 		02AA2F461FFC31CA00743676 /* LinkParaDev.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F411FFC31CA00743676 /* LinkParaDev.m */; };
+		02AA2F491FFC361F00743676 /* LotteryTestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F481FFC361F00743676 /* LotteryTestData.m */; };
+		02AA2F4C1FFC739D00743676 /* LotterySSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F4B1FFC739D00743676 /* LotterySSCViewController.m */; };
+		02AA2F4F1FFC7EFC00743676 /* LFFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F4E1FFC7EFC00743676 /* LFFunctions.m */; };
+		02AA2F521FFD625600743676 /* SSCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F511FFD625600743676 /* SSCTitleCell.m */; };
+		02AA2F551FFD626D00743676 /* SSCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA2F541FFD626D00743676 /* SSCTableViewCell.m */; };
 		02AD69B41FF45B3F00DA87E8 /* CYFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD69B31FF45B3F00DA87E8 /* CYFunction.m */; };
 		02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A801FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld */; };
 		02D83A8A1FEDBAEF004BBBDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D83A891FEDBAEF004BBBDD /* main.m */; };
@@ -90,6 +95,16 @@
 		02AA2F411FFC31CA00743676 /* LinkParaDev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkParaDev.m; sourceTree = "<group>"; };
 		02AA2F421FFC31CA00743676 /* AppDataSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataSocketDelegate.h; sourceTree = "<group>"; };
 		02AA2F431FFC31CA00743676 /* AppDataSocketConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataSocketConnector.h; sourceTree = "<group>"; };
+		02AA2F471FFC361F00743676 /* LotteryTestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryTestData.h; sourceTree = "<group>"; };
+		02AA2F481FFC361F00743676 /* LotteryTestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryTestData.m; sourceTree = "<group>"; };
+		02AA2F4A1FFC739D00743676 /* LotterySSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotterySSCViewController.h; sourceTree = "<group>"; };
+		02AA2F4B1FFC739D00743676 /* LotterySSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotterySSCViewController.m; sourceTree = "<group>"; };
+		02AA2F4D1FFC7EFC00743676 /* LFFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFFunctions.h; sourceTree = "<group>"; };
+		02AA2F4E1FFC7EFC00743676 /* LFFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFFunctions.m; sourceTree = "<group>"; };
+		02AA2F501FFD625600743676 /* SSCTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCTitleCell.h; sourceTree = "<group>"; };
+		02AA2F511FFD625600743676 /* SSCTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCTitleCell.m; sourceTree = "<group>"; };
+		02AA2F531FFD626D00743676 /* SSCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCTableViewCell.h; sourceTree = "<group>"; };
+		02AA2F541FFD626D00743676 /* SSCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCTableViewCell.m; sourceTree = "<group>"; };
 		02AD69B21FF45B3F00DA87E8 /* CYFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFunction.h; sourceTree = "<group>"; };
 		02AD69B31FF45B3F00DA87E8 /* CYFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFunction.m; sourceTree = "<group>"; };
 		02D83A741FEDBAEF004BBBDD /* LuckyForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +240,8 @@
 		02AD69B11FF45AB800DA87E8 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				02AA2F4D1FFC7EFC00743676 /* LFFunctions.h */,
+				02AA2F4E1FFC7EFC00743676 /* LFFunctions.m */,
 				02AD69B21FF45B3F00DA87E8 /* CYFunction.h */,
 				02AD69B31FF45B3F00DA87E8 /* CYFunction.m */,
 			);
@@ -345,6 +362,14 @@
 				02AA2F371FFC2D3600743676 /* FTTableViewCell.m */,
 				02AA2F391FFC2D6F00743676 /* FTTitleCell.h */,
 				02AA2F3A1FFC2D6F00743676 /* FTTitleCell.m */,
+				02AA2F471FFC361F00743676 /* LotteryTestData.h */,
+				02AA2F481FFC361F00743676 /* LotteryTestData.m */,
+				02AA2F4A1FFC739D00743676 /* LotterySSCViewController.h */,
+				02AA2F4B1FFC739D00743676 /* LotterySSCViewController.m */,
+				02AA2F501FFD625600743676 /* SSCTitleCell.h */,
+				02AA2F511FFD625600743676 /* SSCTitleCell.m */,
+				02AA2F531FFD626D00743676 /* SSCTableViewCell.h */,
+				02AA2F541FFD626D00743676 /* SSCTableViewCell.m */,
 			);
 			path = LotteryDetail;
 			sourceTree = "<group>";
@@ -759,6 +784,7 @@
 				02D83AF31FEDBB91004BBBDD /* HomeTabViewController.m in Sources */,
 				02D83AEF1FEDBB91004BBBDD /* DiscoverSubtitleCell.m in Sources */,
 				0270B2681FF575480042A012 /* CYColor.m in Sources */,
+				02AA2F551FFD626D00743676 /* SSCTableViewCell.m in Sources */,
 				02D83AFA1FEDBB91004BBBDD /* EventSeperaterTableViewCell.m in Sources */,
 				02D83AF11FEDBB91004BBBDD /* DiscoverViewController.m in Sources */,
 				02D83AEB1FEDBB91004BBBDD /* DiscoverContentCell.m in Sources */,
@@ -769,9 +795,13 @@
 				02AA2F461FFC31CA00743676 /* LinkParaDev.m in Sources */,
 				02D83AF61FEDBB91004BBBDD /* EventData.m in Sources */,
 				02D83B141FEDBF97004BBBDD /* AppDelegate.m in Sources */,
+				02AA2F491FFC361F00743676 /* LotteryTestData.m in Sources */,
 				02D83A821FEDBAEF004BBBDD /* LuckyForever.xcdatamodeld in Sources */,
+				02AA2F4F1FFC7EFC00743676 /* LFFunctions.m in Sources */,
+				02AA2F521FFD625600743676 /* SSCTitleCell.m in Sources */,
 				02AA2F351FFC246300743676 /* LotteryDetailViewController.m in Sources */,
 				02D83AF81FEDBB91004BBBDD /* EventDetailViewController.m in Sources */,
+				02AA2F4C1FFC739D00743676 /* LotterySSCViewController.m in Sources */,
 				02D83AFC1FEDBB91004BBBDD /* EventTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

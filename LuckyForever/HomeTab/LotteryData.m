@@ -11,65 +11,65 @@
 @implementation LotteryData
 +(NSArray *) getLotteryList{
      return  @[
+               @{
+                   @"title":@"云南时时彩",
+                   @"desc":@"全天24期",
+                   @"lottery_id":@"134"
+                   },
+               @{
+                   @"title":@"重庆时时彩",
+                   @"desc":@"全天24期",
+                   @"lottery_id":@"73"
+                   },
+               @{
+                   @"title":@"天津时时彩",
+                   @"desc":@"全天24期",
+                   @"lottery_id":@"93"
+                   },
                 @{
-                    @"title":@"大发快3",
+                    @"title":@"排列3",
                     @"desc":@"1分钟1期",
-                    @"websitePage":@"https://chart.ydniu.com/trend/k3bj/"
+                    @"lottery_id":@"16"
                     },
                 @{
-                    @"title":@"北京快3",
+                    @"title":@"吉林新快3",
                     @"desc":@"全天89期",
-                    @"websitePage":@"https://chart.ydniu.com/trend/k3bj/"
+                    @"lottery_id":@"72"
                     },
                 @{
                     @"title":@"安徽快3",
                     @"desc":@"全天80期",
-                    @"websitePage":@"https://www.ydniu.com/lottery/k3ah.aspx"
+                    @"lottery_id":@"76"
                     },
                 @{
-                    @"title":@"天津时时彩",
+                    @"title":@"河北快3",
                     @"desc":@"3分钟1期",
-                    @"websitePage":@"https://www.888c6.com/history?gameUniqueId=HF_TJSSC"
+                    @"lottery_id":@"101"
                     },
                 @{
-                    @"title":@"重庆时时彩",
+                    @"title":@"福建快3",
                     @"desc":@"1分钟1期",
-                    @"websitePage":@"https://zst.cjcp.com.cn/shdd/chongqingssc-ww.html"
+                    @"lottery_id":@"81"
                     },
                 @{
-                    @"title":@"新疆时时彩",
+                    @"title":@"易快3",
                     @"desc":@"全天89期",
-                    @"websitePage":@"https://zst.cjcp.com.cn/cjwssc_3xing/view/ssc_qujian-xjssc.html"
+                    @"lottery_id":@"87"
                     },
                 @{
-                    @"title":@"大发六合彩",
+                    @"title":@"上海快3 ",
                     @"desc":@"全天80期",
-                    @"websitePage":@"https://yz7288.com/?yz__bskk_com"
+                    @"lottery_id":@"105"
                     },
                 @{
-                    @"title":@"香港六合彩",
+                    @"title":@"贵州快3",
                     @"desc":@"1分钟1期",
-                    @"website":@"https://lt.groom88.net/member/lt/"
+                    @"lottery_id":@"123"
                     },
                 @{
-                    @"title":@"北京PK10",
+                    @"title":@"甘肃快3",
                     @"desc":@"1分钟1期",
-                    @"websitePage":@"https://lt.groom88.net/charon/#/game/bjpk?playway=general"
-                    },
-                @{
-                    @"title":@"北京快乐8",
-                    @"desc":@"全天89期",
-                    @"websitePage":@"http://lt.groom88.net/charon/#/game/bjkn?playway=multi_choose"
-                    },
-                @{
-                    @"title":@"江西11选5",
-                    @"desc":@"全天80期",
-                    @"websitePage":@"https://lt.groom88.net/charon/#/game/jxe5?playway=general"
-                    },
-                @{
-                    @"title":@"更多彩种",
-                    @"desc":@" ",
-                    @"websitePage":@"https://google.com"
+                    @"lottery_id":@"126"
                     }
                 ];
 }

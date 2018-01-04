@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDataSocketConnector.h"
 
-@interface LotteryDetailViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@interface LotteryDetailViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,AppDataSocketDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *contentView;
+@property NSDictionary * lottery;
 
+@property NSString * mode;
 @end

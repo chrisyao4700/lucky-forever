@@ -25,6 +25,8 @@
     UIImageView * imagePool;
     UILabel * titlePool;
     UILabel * descPool;
+    
+    NSString * mode;
 }
 
 - (void)viewDidLoad {
@@ -37,7 +39,13 @@
     self.pageView.isInfinite = YES;
 
 //    [self.navigationController.navigationBar.layer insertSublayer: [CYColor configNavigationViewWithFrame:self.navigationController.navigationBar.frame] atIndex:0];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_bar"] forBarMetrics:UIBarMetricsDefault];
+   
+     self.navigationController.navigationBar.barTintColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"top_bar_w"]];
+    
+
+    //[self.navigationController.navigationBar setContentMode:UIViewContentModeScaleToFill];
+    //[self.navigationController.navigationBar setBackgroundImage: forBarMetrics:UIBarMetricsDefault];
+    
     self.title = @"一路发彩票";
     //[self.navigationController.navigationBar setTitleTextAttributes:@{}];
     
@@ -110,7 +118,14 @@
                 [subview removeFromSuperview];
             }
             imagePool = [[UIImageView alloc] initWithFrame:CGRectMake(12, 12, cell.bounds.size.height - 24, cell.bounds.size.height -24)];
-            imagePool.image = [UIImage imageNamed:[NSString stringWithFormat:@"butt_%ld.png",(long)indexPath.item]];
+            if (indexPath.row <=2) {
+                imagePool.image = [UIImage imageNamed:[NSString stringWithFormat:@"butt_%ld.png",(long)indexPath.item]];
+                
+            }else{
+                imagePool.image = [UIImage imageNamed:@"butt_3.png"];
+           
+            }
+            
             [cell addSubview:imagePool];
             
             pool = [buttons objectAtIndex:indexPath.item];
@@ -172,6 +187,13 @@
         pool = [buttons objectAtIndex:indexPath.item];
         //[CYWebHandler openWebWithURL:[NSURL URLWithString:[pool objectForKey:@"websitePage"]]];
         //[self performSegueWithIdentifier:@"toLotteryDetail" sender:self];
+        if (indexPath.row <=2) {
+            //imagePool.image = [UIImage imageNamed:[NSString stringWithFormat:@"butt_%ld.png",(long)indexPath.item]];
+            mode = @"SSC";
+        }else{
+            //imagePool.image = [UIImage imageNamed:@"butt_3.png"];
+            mode = @"FT";
+        }
         [self performSegueWithIdentifier:@"toLotteryDetail" sender:self];
     }
 }
@@ -233,9 +255,13 @@
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    //LotteryDetailViewController * ldvc =(LotteryDetailViewController *)[segue destinationViewController];
+    LotteryDetailViewController * ldvc =(LotteryDetailViewController *)[segue destinationViewController];
+    ldvc.lottery = pool;
+    ldvc.mode = mode;
+    
     
     
 }

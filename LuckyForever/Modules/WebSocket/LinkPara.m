@@ -10,13 +10,13 @@
 
 @implementation LinkPara
 +(NSString *) getRootLinkAddress{
-    return @"https://chrisyao4700.com";
+    return @"https://api.8lufa.com";
 }
 +(NSString *) getChildBranchFolderName{
     return @"aci_hacienda";
 }
 +(NSString *) getAPIDirectory{
-    return @"aci_hacienda/aci_hacienda_api.php";
+    return @"caipiao/history";
 }
 +(NSString *) getAppID{
     return @"Lucky-Forever";

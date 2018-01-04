@@ -13,6 +13,4 @@
 @property (weak, nonatomic) IBOutlet FSPagerView *pageView;
 
 @property (strong, nonatomic) IBOutlet UICollectionView *bottomContentView;
-
-
 @end
